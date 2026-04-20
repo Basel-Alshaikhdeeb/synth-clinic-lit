@@ -1,0 +1,33 @@
+{
+  "name": "evidence_synthesis",
+  "mode": "collection",
+  "instructions": "Synthesize across ALL provided articles. Note disagreements between studies.",
+  "fields": [
+    {
+      "name": "n_studies",
+      "type": "integer",
+      "description": "Number of distinct primary studies across the provided articles.",
+      "required": true
+    },
+    {
+      "name": "common_intervention",
+      "type": "string",
+      "description": "Intervention or exposure shared across the articles, if any."
+    },
+    {
+      "name": "pooled_findings",
+      "type": "string",
+      "description": "High-level synthesis of what the body of evidence shows."
+    },
+    {
+      "name": "points_of_disagreement",
+      "type": "list[string]",
+      "description": "Specific points where the articles disagree or report inconsistent results."
+    },
+    {
+      "name": "evidence_gaps",
+      "type": "list[string]",
+      "description": "Open questions or populations not covered by the provided articles."
+    }
+  ]
+}

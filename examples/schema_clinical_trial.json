@@ -1,0 +1,52 @@
+{
+  "name": "clinical_trial_summary",
+  "mode": "per_article",
+  "instructions": "Focus on the primary trial reported in this article. Ignore cited trials.",
+  "fields": [
+    {
+      "name": "study_design",
+      "type": "string",
+      "description": "Type of study (e.g., 'randomized controlled trial', 'cohort', 'case-control', 'cross-sectional', 'case report')."
+    },
+    {
+      "name": "n_participants",
+      "type": "integer",
+      "description": "Total number of human participants enrolled. Null if not human or not reported."
+    },
+    {
+      "name": "population",
+      "type": "string",
+      "description": "One-sentence description of the study population (condition, age range, setting)."
+    },
+    {
+      "name": "intervention",
+      "type": "string",
+      "description": "The primary intervention, drug, or exposure studied."
+    },
+    {
+      "name": "comparator",
+      "type": "string",
+      "description": "Control or comparator arm. Null if single-arm."
+    },
+    {
+      "name": "primary_outcomes",
+      "type": "list[string]",
+      "description": "Primary outcome measures as defined by the authors."
+    },
+    {
+      "name": "key_findings",
+      "type": "string",
+      "description": "2-3 sentence summary of the primary results, including direction and any effect size the authors report."
+    },
+    {
+      "name": "funding_sources",
+      "type": "list[string]",
+      "description": "Named funders or sponsors. Empty list if not reported."
+    },
+    {
+      "name": "registered",
+      "type": "boolean",
+      "description": "True if a trial registration ID (e.g., NCT number) is mentioned."
+    }
+  ]
+}
