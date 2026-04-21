@@ -1,0 +1,449 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">J Addict Med</journal-id><journal-id journal-id-type="iso-abbrev">J Addict Med</journal-id><journal-id journal-id-type="pmc-domain-id">319</journal-id><journal-id journal-id-type="pmc-domain">nihpa</journal-id><journal-title-group><journal-title>Journal of addiction medicine</journal-title></journal-title-group><issn pub-type="ppub">1932-0620</issn><issn pub-type="epub">1935-3227</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>NIHPA Author Manuscripts</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7358111</article-id><article-id pub-id-type="pmcid-ver">PMC7358111.1</article-id><article-id pub-id-type="pmcaid">7358111</article-id><article-id pub-id-type="pmcaiid">7358111</article-id><article-id pub-id-type="manuscript-id">NIHMS1549010</article-id><article-id pub-id-type="pmid">31972762</article-id><article-id pub-id-type="doi">10.1097/ADM.0000000000000608</article-id><article-id pub-id-type="manuscript-id-alternative">NIHMS1549010</article-id><article-id pub-id-type="manuscript-id-alternative">NIHPA1549010</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Acceptability and feasibility of a mobile health application for
+video directly observed therapy of buprenorphine for opioid use disorders in an
+office-based setting</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Godersky</surname><given-names initials="ME">Margo E.</given-names></name><degrees>MPH</degrees><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Klein</surname><given-names initials="JW">Jared W.</given-names></name><degrees>MD, MPH</degrees><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Merrill</surname><given-names initials="JO">Joseph O.</given-names></name><degrees>MD, MPH</degrees><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Blalock</surname><given-names initials="KL">Kendra L.</given-names></name><degrees>MS</degrees><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Saxon</surname><given-names initials="AJ">Andrew J.</given-names></name><degrees>MD</degrees><xref ref-type="aff" rid="A3">3</xref><xref ref-type="aff" rid="A4">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Samet</surname><given-names initials="JH">Jeffrey H.</given-names></name><degrees>MD, MA, MPH</degrees><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Tsui</surname><given-names initials="JI">Judith I.</given-names></name><degrees>MD, MPH</degrees><xref ref-type="aff" rid="A2">2</xref></contrib></contrib-group><aff id="A1"><label>1</label>Vaccine and Infectious Disease Division, Fred Hutchinson
+Cancer Research Center, 1100 Fairview Ave. N., Seattle, WA 98109</aff><aff id="A2"><label>2</label>Division of General Internal Medicine, Department of
+Medicine, University of Washington, 325 9th Avenue Seattle, WA 98104</aff><aff id="A3"><label>3</label>Center of Excellence in Substance Abuse Treatment and
+Education, VA Puget Sound Health Care System 1660 S Columbian Way, Seattle, WA
+98108</aff><aff id="A4"><label>4</label>Department of Psychiatry and Behavioral Sciences,
+University of Washington, 1959 NE Pacific St, Seattle, WA 98195</aff><aff id="A5"><label>5</label>Section of General Internal Medicine, Department of
+Medicine, Boston Medical Center, Boston University School of Medicine, 801
+Massachusetts Ave., Boston, MA 02118</aff><author-notes><corresp id="CR1"><bold>Corresponding author:</bold> Judith I. Tsui,
+<email>tsuij@uw.edu</email> (JT), fax: 206-744-9917</corresp></author-notes><pub-date pub-type="ppub"><season>Jul-Aug</season><year>2020</year></pub-date><volume>14</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">361367</issue-id><fpage>319</fpage><lpage>325</lpage><pub-history><event event-type="nihms-submitted"><date><day>10</day><month>01</month><year>2020</year></date></event><event event-type="pmc-release"><date><day>01</day><month>07</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>01</day><month>07</month><year>2021</year></date></event><event event-type="pmc-released-under-embargo"><date><day>11</day><month>08</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-07-30 07:25:22.543"><day>30</day><month>07</month><year>2024</year></date></event></pub-history><permissions><license><license-p>This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nihms-1549010.pdf"/><abstract id="ABS1"><sec id="S1"><title>Introduction/background:</title><p id="P1">Video directly observed therapy (video-DOT) through a mobile health
+platform may improve buprenorphine adherence and decrease diversion. This
+pilot study tested the acceptability and feasibility of using this
+technology among patients receiving buprenorphine in an office-based
+setting.</p></sec><sec id="S2"><title>Methods:</title><p id="P2">Participants were instructed to record videos of themselves taking
+buprenorphine. Data were collected from weekly in-person visits over a
+four-week period; assessments included self-report of medication adherence,
+substance use, satisfaction with treatment and use of the application, as
+well as urine drug testing. Open-ended questions at the final visit
+solicited feedback on patients’ experiences using the mobile health
+application.</p></sec><sec id="S3"><title>Results:</title><p id="P3">The sample consisted of 14 patients; a majority were male (86%) and
+White (79%). All participants except one (93%) were able to use the
+application successfully to upload videos. Among those who successfully used
+the application, the percentage of daily videos uploaded per participant
+ranged from 18 to 96%; on average, daily videos were submitted by
+participants 72% of the time. Most participants (10/14; 71%) reported being
+“very satisfied” with the application; of the remaining 4
+participants, 2 were “satisfied” and 2 were
+“neutral.” Participants reported liking the accountability and
+structure the application provided and its ease of use. Negative feedback
+included minor discomfort at viewing one’s self during recording and
+the time required.</p></sec><sec id="S4"><title>Conclusions:</title><p id="P4">Based on these results, use of a mobile health application for
+video-DOT of buprenorphine appears feasible and acceptable for patients who
+are treated in an office-based setting. Further research is needed to test
+whether use of such an application can improve treatment delivery and health
+outcomes.</p></sec></abstract><kwd-group><kwd>adherence</kwd><kwd>mobile health</kwd><kwd>opioid use disorder</kwd><kwd>buprenorphine</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="S5"><label>1.</label><title>Introduction</title><p id="P5">Despite efforts to combat the opioid crisis, the rate of opioid-related drug
+overdoses in the United States has increased by 5-fold over the past decade (<xref rid="R15" ref-type="bibr">Hedegaard et al., 2018</xref>). Buprenorphine is an
+efficacious and accessible treatment for persons with opioid use disorder, blocking
+opioid cravings, reducing illicit opioid use and allowing individuals to interrupt
+the cycle of maladaptive behavior associated with addiction(<xref rid="R19" ref-type="bibr">Mattick et al., 2014</xref>). Rather than having daily
+dispensing of medication observed in a federally licensed opioid treatment program,
+such as a methadone clinic or an intensive outpatient program, providers may
+prescribe buprenorphine in an office-based setting allowing greater flexibility for
+patients.</p><p id="P6">Successful treatment with buprenorphine requires adherence to medications.
+One study utilizing computerized medication bottle caps to monitor buprenorphine
+administration in an office-based setting demonstrated 71% adherence (<xref rid="R7" ref-type="bibr">Fiellin et al., 2006</xref>), leaving room for improvement.
+Retention in treatment is a major challenge for buprenorphine treated patients, with
+up to one half dropping out of treatment within one year (<xref rid="R1" ref-type="bibr">Alford et al., 2011</xref>; <xref rid="R33" ref-type="bibr">Weinstein et al., 2017</xref>). Supervised treatment, or directly observed
+therapy (DOT), has long been mandated for methadone treatment in federally licensed
+opioid treatment programs in the U.S. Research suggests higher rates of retention
+among methadone treated patients compared to buprenorphine (<xref rid="R17" ref-type="bibr">Hser et al., 2016</xref>), which could in part relate to its DOT
+method of delivery. However, most models for office-based treatment with
+buprenorphine currently do not include DOT. A recent pilot study for real-time
+observation of buprenorphine ingestion via video conferencing between patient and
+trained recovery coaches showed a similar adherence to computerized medication
+bottle caps at 72% adherence (<xref rid="R28" ref-type="bibr">Schuman-Olivier et
+al., 2018</xref>). While many patients like the autonomy and flexibility of
+buprenorphine, there are also patients who express desire for greater accountability
+and structure to their treatment (<xref rid="R34" ref-type="bibr">Yarborough et al.,
+2016</xref>).</p><p id="P7">Video-based directly observed therapy (video-DOT) is a method of monitoring
+medication adherence via an asynchronous video platform modeled after in-person DOT.
+With asynchronous video-DOT, patients can be observed in their own environment
+without the inconvenience and time commitment of attending a clinic for in-person
+observation, and providers can review the video at any time further decreasing
+provider burden. Video-DOT has been successfully utilized for the treatment of
+tuberculosis (<xref rid="R9" ref-type="bibr">Garfein et al., 2015</xref>; <xref rid="R29" ref-type="bibr">Story et al., 2016</xref>; <xref rid="R16" ref-type="bibr">Holzman et al., 2018</xref>) and was implemented post-disaster
+relief to provide medical monitoring for patients affected by Hurricane Katrina
+(<xref rid="R24" ref-type="bibr">Olano-Soler et al., 2017</xref>).</p><p id="P8">While video-DOT has been found to be acceptable in other treatment settings,
+it is unknown whether patients would be receptive for its use with buprenorphine.
+The aims of this study were to assess the acceptability and feasibility of using a
+customized, innovative mobile health platform to provide asynchronous, video-DOT and
+enhanced monitoring among patients treated for opioid use disorder with
+buprenorphine.</p></sec><sec id="S6"><label>2.</label><title>Methods</title><sec id="S7"><label>2.1.</label><title>Study Design</title><p id="P9">Based on information derived from prior qualitative work (<xref rid="R10" ref-type="bibr">Godersky et al., 2019</xref>), we conducted a pilot study of
+the use of a mobile health platform to support patients treated for opioid use
+disorder with buprenorphine. The smartphone application allows patients to
+record themselves taking buprenorphine then uploads the videos to a secure,
+cloud-based server for subsequent review by research and clinical team members.
+Patients currently treated with buprenorphine in an office-based setting were
+asked to use the mobile application for a one-month study period. They met with
+research staff on a weekly basis for assessments including medication adherence
+and substance use. Urine drug testing was conducted at every study assessment.
+Participants were compensated $20 for the first 4 visits and $40 for the final
+visit, for up to $120 for completing all research procedures. The University of
+Washington Institutional Review Board approved all study procedures.</p></sec><sec id="S8"><label>2.2.</label><title>Study Sample</title><p id="P10">Participants were recruited from the Adult Medicine Clinic at Harborview
+Medical Center, located in Seattle, WA, between November 2017 and February 2018.
+Research staff worked closely with nurses and physicians to identify patients
+who were interested in participating. Patients were eligible if they were
+between 18 and 65 years of age, English speaking, currently receiving
+buprenorphine treatment in clinic and willing to use a mobile phone application.
+Buprenorphine treatment was confirmed by study staff via the electronic medical
+record. Participants were excluded for acute or chronic cognitive impairment
+resulting in inability to provide informed consent based on researcher
+assessment.</p></sec><sec id="S9"><label>2.3</label><title>Study Intervention</title><p id="P11">Participants were instructed to download the mobile application on their
+personal device or were provided a smartphone for use during the study period if
+they did not have a personal phone. Phones reported lost or stolen during the
+study could be replaced. <xref rid="SD1" ref-type="supplementary-material">Supplemental Figure S1</xref> depicts participant-facing application
+interface. Research staff oriented participants on how to use the application
+and provided basic instruction regarding functionality. In addition to allowing
+participants to record themselves taking their medication, the application also
+provides users with clinic contact information, and sends a daily notification
+when videos are not uploaded. The application included daily assessments of
+medication side effects and opioid cravings and also included links to relevant
+resources including: buprenorphine information, overdose prevention, syringe
+service programs, 12-step meetings, community mental health crisis hotline, and
+a link to the electronic medical record patient portal, which allows patients to
+contact their primary care teams. Patients were instructed to upload videos to
+confirm daily dosing from the initial ingestion until the medication was fully
+dissolved. If they took medication more than once daily (e.g. twice daily) they
+were encouraged to submit videos for all doses, but were requested to upload at
+least one video per day. Study staff reviewed all submitted videos for
+acceptable quality (e.g., patient and medication were visible, patient
+demonstrated initial medication ingestion and video was uninterrupted) to
+confirm medication administration.</p></sec><sec id="S10"><label>2.3.</label><title>Data Collection and Measures</title><p id="P12">Data were collected from questionnaires administered at in-person study
+visits as well as from the mobile smartphone application. Baseline and weekly
+study visits were completed over a one-month period for a total of five visits.
+Demographic information including age, race/ethnicity, housing, employment and
+relationship status were collected at the baseline visit, as well as information
+about current and past treatment for opioid use disorder. At subsequent visits
+participants’ data were collected on buprenorphine adherence and recent
+substance use using a 7-day timeline follow-back method (<xref rid="R20" ref-type="bibr">McLellan et al., 1992</xref>). At weekly visits patients
+were also asked if they had any problems using the application, and the research
+coordinator attempted to resolve any difficulties. At the final visit
+participants were also asked open-ended questions to elicit feedback on
+perceptions of using the application (e.g., “What did you like best/least
+about [the application]?”), barriers to use (e.g., “Were there any
+effects on your privacy?) and suggested changes (e.g., “Is there anything
+you would recommend changing?”).</p><p id="P13">Data on video completion (e.g., video successfully uploaded and was of
+acceptable quality) was abstracted by research staff from an online provider
+interface that provides data from the mobile application. Urine drug testing
+(UDT) was completed at all visits to confirm self-reported illicit drug use and
+presence of buprenorphine using Alere® iCup DX 14 Panel Drug Test Cup
+(Alere Toxicology) for 14 substances (marijuana, cocaine, opiates, oxycodone,
+methadone, buprenorphine, methamphetamine, amphetamine, benzodiazepines,
+barbiturates, nortriptyline, MDMA, propoxyphene and phencyclidine).</p></sec><sec id="S11"><label>2.4.</label><title>Statistical Analysis</title><p id="P14">We conducted descriptive statistics of participants’ usage of the
+video-DOT application. We calculated the mean/median number of daily videos
+completed during the study, as well as self-reported days of medication
+adherence. Correlation co-efficients (Pearson’s) between videos and
+self-reported adherence were calculated, as well as videos and time in
+treatment. The number/percentage of weekly urine drug tests positive for
+buprenorphine and other substances was calculated. Quantitative analyses were
+performed using RStudio (v1.1.456)(<xref rid="R26" ref-type="bibr">RStudio Team,
+2016</xref>). Responses from open-ended questions were reviewed by two
+authors (MG and KB) to arrive at consensus of main themes. Results from
+open-ended questions at the final study visit were tabulated by theme.</p></sec></sec><sec id="S12"><label>3.</label><title>Results</title><sec id="S13"><label>3.1</label><title>Participant Characteristics</title><p id="P15">The sample was comprised of 14 participants of which the mean age was
+44.7 (±12.2) years; the majority were male (85.7%) and self-identified as
+White (78.6%) (<xref rid="T1" ref-type="table">Table 1</xref>). Just under a
+third experienced housing insecurity in the past 90 days (28.6%). Most had
+received buprenorphine treatment in the clinic for less than 90 days (57.1%). A
+majority of participants received a dose of 16 milligrams (57.1%) and used the
+tablet formulation of buprenorphine (64.3%). Six participants (42.9%) had prior
+buprenorphine treatment, and eight (57.1%) had previously been in a methadone
+program. Phones were provided for 13/14 (92.9%) participants; 1/13 (7.7%)
+reported lost/stolen phones at the final visit; zero phones were damaged during
+the study. All participants completed the study, and 68/70 (96.4%) of weekly
+study follow-up visits were completed.</p></sec><sec id="S14"><label>3.2</label><title>Video Submissions and Medication Adherence</title><p id="P16"><xref rid="F1" ref-type="fig">Figure 1</xref> shows the number of daily
+videos submitted per week (Weeks 1–4) for each participant. Nearly all
+participants (13/14; 92.8%) were able to use the application successfully to
+upload videos of buprenorphine ingestion for review: only one participant was
+unable or unwilling to use the technology and did not upload any videos. Another
+participant was incarcerated during part of the study period and was unable to
+complete videos while in custody. No clear pattern of reduction in video
+submissions was seen with positive opioid urine drug tests. <xref rid="T2" ref-type="table">Table 2</xref> provides a descriptive summary of the number
+and percentage of daily videos that were submitted during the 28-day study
+period, as well as days of self-reported adherence, which was assessed at weekly
+study visits. The percentage of days with a submitted video ranged from
+0–96.4%. The median percentage of submitted videos was 73.2% (IQR: 50.0,
+85.7); the mean percentage of submitted videos was 63.3% (SD±30.4%) among
+all participants and 71.7% (SD±22.7%) among those who were able to use
+the platform (i.e. excluding incarcerated participant and the participant who
+was unable to upload videos). In general, the number/percentage of days with
+self-reported adherence to medication exceeded that of days submitting videos
+confirming adherence. However, the correlation between self-reported adherence
+and video-confirmation of adherence was strong (<xref rid="F2" ref-type="fig">Figure 2</xref>). There was a modest but statistically significant
+correlation between time on buprenorphine treatment and success of video-DOT
+(<xref rid="F3" ref-type="fig">Figure 3</xref>).</p></sec><sec id="S15"><label>3.3</label><title>Urine Drug Testing Results</title><p id="P17">Buprenorphine was present in all UDTs except for the sample provided
+immediately after release of the participant who was incarcerated (buprenorphine
+was not continued while in custody). The results for illicit drugs and
+prescribed buprenorphine are as follows: at baseline, 42.9% of participants had
+a UDT positive result for opioids (combined measure for opiates, oxycodone and
+methadone). The following weeks results for opioids were 28.6% at week 2, 38.5%
+at week 3, 46.2% at week 4 and 35.7% positive at the final visit.
+Methamphetamine results were 28.6% positive at baseline and 15.4% at week 2,
+30.8% at weeks 3 and 4 and 35.7% positive at the final visit. Cocaine results
+were 21.4% positive at baseline and 35.7% at week 2, 30.8% at weeks 3 and 4 and
+14.3% positive at the final visit.</p></sec><sec id="S16"><label>3.4</label><title>Patient Experience</title><p id="P18">At the final visit, participants were asked about their satisfaction
+using the application. Most (10/14; 71.4%) reported being “very
+satisfied” with the experience. Of the remaining participants, two
+(14.3%) were “satisfied” and two (14.3%) were
+“neutral”, including the participant who was unable to use the
+application; no participants reported that they were
+“dissatisfied” nor “very dissatisfied” using the
+application.</p><p id="P19">A summary of responses to open ended questions soliciting positive and
+negative aspects of using the application at the final visit is provided in
+<xref rid="T3" ref-type="table">Table 3</xref>. For positive aspects of
+using the application, participants reported increased accountability for and
+structure to medication taking (n=10; 71.4%), the application was simple to use
+(n=8; 57.1%), helpful (n=4; 28.6%) and assisted with reflection on progress in
+treatment (n=3; 21.4%). One participant reported that using the application
+helped open a dialog to discuss recovery with family and friends; one reported
+enjoying learning to use new technology, and one reported a benefit with the
+flexibility to use the application as it fit into personal schedule.</p><p id="P20">Regarding negative aspects of using the application, discomfort with
+filming medication ingestion was the most commonly reported drawback reported by
+42.9% (n=6). Five (35.7%) participants brought up the added time commitment and
+steps to medication taking. Around a quarter of participants reported
+encountering some logistical difficulties with the application such as
+maintaining a charged phone and needing to login to the application each time,
+as well as technical issues such as the application closing mid-submission or
+slow submission of videos. Finding a private space where participants were
+comfortable taking buprenorphine while filming was a challenge reported by three
+(21.4%) participants. Two (14.3%) participants reported occasional difficultly
+remembering to use the application.</p></sec></sec><sec id="S17"><label>4.</label><title>Discussion</title><p id="P21">This study is the first we are aware of that integrates video-DOT for
+buprenorphine in an office-based setting, which is a novel application of an
+emerging mobile health technology. Nearly all participants were able to upload
+videos for review, and, on average, patient-submitted videos confirmed buprenorphine
+ingestion nearly two-thirds of days during the study period. The application was
+acceptable to all participants with none expressing dissatisfaction with their
+experience.</p><p id="P22">A growing literature exists on new mobile health technologies promoting
+medication adherence for patients with challenges to optimal care for chronic
+medical conditions (<xref rid="R14" ref-type="bibr">Hamine et al., 2015</xref>),
+including taking HIV medications among patients with methamphetamine use (<xref rid="R25" ref-type="bibr">Quanbeck et al., 2014</xref>; <xref rid="R12" ref-type="bibr">Gustafson et al., 2016</xref>). In a prior qualitative study of
+providers and patients, we identified barriers to buprenorphine adherence, including
+factors that made it difficult to attend appointments for refills, forgetting to
+take medication and the temptation to refrain from using buprenorphine in order to
+get “high” (<xref rid="R10" ref-type="bibr">Godersky et al.,
+2019</xref>). A study of buprenorphine treated patients demonstrated that the
+majority (93%) reported mobile phone ownership (<xref rid="R31" ref-type="bibr">Tofighi et al., 2015</xref>), suggesting that untapped opportunities for mobile
+interventions are possible, though this may differ by clinic as most participants
+required a borrowed phone for the studied intervention described in this manuscript.
+Researchers have demonstrated text message reminders to be feasible among
+buprenorphine treated patients for improving appointment adherence (<xref rid="R30" ref-type="bibr">Tofighi et al., 2017</xref>), and technology that allows for
+monitoring of patients’ substance use and providing support tools has been
+successfully utilized for persons with methamphetamine and alcohol use disorders
+(<xref rid="R22" ref-type="bibr">Montoya et al., 2014</xref>; <xref rid="R12" ref-type="bibr">Gustafson et al., 2016</xref>). This technology could also be a
+useful adjunct for buprenorphine treatment, where non-adherence is clearly linked
+with illicit opioid use (<xref rid="R8" ref-type="bibr">Fiellin et al.,
+2014</xref>). While many patients prefer office-based buprenorphine treatment over
+methadone because of greater autonomy (<xref rid="R18" ref-type="bibr">Korthuis et
+al., 2010</xref>; <xref rid="R11" ref-type="bibr">Gryczynski et al.,
+2013</xref>), some also desire greater accountability and structure in their
+treatment program. The mobile application used in this study provides additional
+tools that could be helpful for engaging patients in their treatment, such as
+appointment reminders and links to online local resources.</p><p id="P23">In addition to improving patient adherence, use of video-DOT for
+buprenorphine could address issues of provider shortages and concerns about
+diversion. Currently there is a shortage of buprenorphine prescribers in many parts
+of the country, and providers in these regions often feel inadequately supported to
+implement treatment (<xref rid="R6" ref-type="bibr">Cunningham et al., 2007</xref>;
+<xref rid="R32" ref-type="bibr">Walley et al., 2008</xref>; <xref rid="R23" ref-type="bibr">Netherland et al., 2009</xref>). For patients located in such
+geographically remote settings, costly, hazardous or time-consuming travel for
+frequent in-person clinic visits creates a barrier to treatment. Even for patients
+who do not travel long distances, requirements for frequent appointments for
+monitoring can be a burden. Using video-DOT as a means for confirming medication
+adherence might enable providers to reduce the need for frequent face-to-face
+monitoring visits, which would be of benefit to both patients and providers. At the
+start of 2019, Medicare reimbursement codes for virtual communication were added,
+including for “remote evaluation of recorded video” which may allow
+expansion of video-DOT (Centers for Medicare &amp; Medicaid Services, 2018).</p><p id="P24">Providers might be also motivated to integrate video-DOT with buprenorphine
+treatment to limit medication diversion. Along with expansion of treatment, reports
+of inappropriate use of buprenorphine (such as intravenous or intranasal
+administration) and diversion have emerged over the past two decades in the
+U.S.(<xref rid="R5" ref-type="bibr">Cicero and Inciardi, 2005</xref>; <xref rid="R13" ref-type="bibr">Gwin Mitchell et al., 2009</xref>; <xref rid="R4" ref-type="bibr">Cicero et al., 2014</xref>; <xref rid="R3" ref-type="bibr">Chilcoat et al., 2019</xref>). Although research suggests that most diverted
+medications are used to treat withdrawal, not induce euphoria (<xref rid="R21" ref-type="bibr">Monte et al., 2009</xref>; <xref rid="R27" ref-type="bibr">Schuman-Olivier et al., 2010</xref>), fears about being unable to control or
+prevent diversion may ultimately discourage providers from prescribing
+buprenorphine. Implementation of video-DOT may reassure providers who are
+particularly concerned about issues of medication diversion, and thus encourage new
+providers to offer this care, or current providers to prescribe to patients who are
+perceived as “high-risk” for diversion.</p><p id="P25">This study is limited by a small sample size and recruitment from a single
+site. The substantial minority of days for which participants did not upload videos
+precluded use of the technology to determine full medication adherence. Additional
+granularity of confirmation of adherence to buprenorphine through enhanced
+laboratory monitoring such as through buprenorphine metabolite monitoring (e.g.
+norbuprenorphine/Creatinine ratios) was not included. The short study duration of
+just four weeks did not allow us to observe whether this technology would be
+feasible to use for longer durations. This was a single arm study with no control
+group, so we are unable to make any comparisons on illicit opioid or other substance
+use with users of the application versus treatment as usual. Participants were using
+the application in the context of a research study; it is unclear if we would find
+similar rates of use in a real-world setting. On the other hand,
+participants’ use of the application was not tied to expectations from their
+clinical providers, and the study provided no financial incentives for using the
+application; participants were provided compensation at study visits regardless of
+whether or not they uploaded videos. Usage rates could be higher in real-world
+settings where use might be tied to incentives such as requiring fewer face-to-face
+visits. Participants in this sample had a range of time in buprenorphine treatment
+which may have impacted their ability to incorporate video-DOT into their medication
+routine. Results suggest that patients who have recently engaged in buprenorphine
+may have more difficulty with VDOT, yet are a population with greatest risk for
+non-adherence/non-retention and thus may have the most to gain. Further research is
+needed to understand how this technology might optimally be used (such as for
+patients who are recently initiating buprenorphine, who are suspected of diversion,
+or who have less need for face-to-face visits for monitoring, etc.).</p></sec><sec id="S18"><label>5.</label><title>Conclusion</title><p id="P26">In summary, we observed in this pilot study that use of video-DOT for
+buprenorphine is generally feasible and acceptable among patients who are receiving
+opioid use disorder treatment in an office-based setting. Planned future work should
+evaluate the effect of video-DOT for buprenorphine on clinical outcomes including
+illicit opioid use, treatment retention and medication diversion. Potential
+challenges related to implementing the use of video-DOT in real-world settings
+include burden on patients, clinics and providers, appropriateness of use for
+different patient groups (e.g. at start of treatment, when diversion is suspected,
+or adherence is questioned) and what impact patients’ acceptance and use of
+video-DOT will have on treatment decisions remain issues to be addressed in the
+future.</p></sec><sec sec-type="supplementary-material" id="SM1"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="SD1" position="float" orientation="portrait"><label>Figure</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NIHMS1549010-supplement-Figure.docx" orientation="portrait" id="d39e440" position="anchor"/></supplementary-material></sec></body><back><ack id="S20"><title>Acknowledgments</title><p id="P28">Funding for this research came from the National Institute on Drug Abuse
+(R44 DA044053). The NIDA grant is a SBIR/STTR research and business partnership;
+this study was complete in conjunction with emocha, a for-profit health technology
+company. The company reviewed results but did not influence the collection or
+interpretation of results. Additional funding to support Dr. Tsui received through the National Institute of Allergy and Infectious Diseases (P30AI027757).</p><p id="P31">Dr. Tsui is supported by a Small Business Innovation Research (SBIR) grant
+from NIH/NIDA grant (NIDA R44 DA044053) with commercial partners emocha- a health
+technology company. The company had no direct involvement in the study activities or
+interpretation/presentation of the data. Dr. Saxon receives royalties from UpToDate
+and served on an advisory board for Alkermes, Inc. All other authors report no
+conflicts.</p></ack><fn-group><fn id="FN1"><p id="P90">Disclosures</p><p id="P27">JT and MG were responsible for the conceptualization of this study and
+initial writing. KB and MG complete data analysis. JK, JM, AS, KB, and JS
+reviewed and provided significant commentary on the manuscript. All authors have
+reviewed and approved the final manuscript for submission.</p></fn></fn-group><ref-list><title>References</title><ref id="R1"><label>1.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Alford</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>LaBelle</surname><given-names>CT</given-names></name>, <name name-style="western"><surname>Kretsch</surname><given-names>N</given-names></name>, <etal/>
+<article-title>Collaborative care of opioid-addicted patients in primary care
+using buprenorphine: five-year experience</article-title>. <source>Arch
+Intern Med</source>
+<year>2011</year>;<volume>171</volume>:<fpage>425</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">21403039</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/archinternmed.2010.541</pub-id><pub-id pub-id-type="pmcid">PMC3059544</pub-id></mixed-citation></ref><ref id="R2"><label>2.</label><mixed-citation publication-type="journal"><collab>Centers for Medicare &amp;
+Medicaid Services</collab>. <source>Final Policy, Payment, and Quality
+Provisions Changes to the Medicare Physician Fee Schedule for Calendar
+Year</source>
+<year>2019</year>
+<comment>Available at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.cms.gov/newsroom/fact-sheets/final-policy-payment-and-quality-provisions-changes-medicare-physician-fee-schedule-calendar-year">https://www.cms.gov/newsroom/fact-sheets/final-policy-payment-and-quality-provisions-changes-medicare-physician-fee-schedule-calendar-year</ext-link>.</comment></mixed-citation></ref><ref id="R3"><label>3.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Chilcoat</surname><given-names>HD</given-names></name>, <name name-style="western"><surname>Amick</surname><given-names>HR</given-names></name>, <name name-style="western"><surname>Sherwood</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Dunn</surname><given-names>KE</given-names></name>. <article-title>Buprenorphine in the United States: Motives for abuse,
+misuse, and diversion</article-title>. <source>J Subst Abuse Treat</source>
+<year>2019</year>;<volume>104</volume>:<fpage>148</fpage>–<lpage>157</lpage>.<pub-id pub-id-type="pmid">31370979</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jsat.2019.07.005</pub-id></mixed-citation></ref><ref id="R4"><label>4.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cicero</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Ellis</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Surratt</surname><given-names>HL</given-names></name>, <name name-style="western"><surname>Kurtz</surname><given-names>SP</given-names></name>. <article-title>Factors contributing to the rise of buprenorphine
+misuse: 2008–2013</article-title>. <source>Drug Alcohol
+Depend</source>
+<year>2014</year>;<volume>142</volume>:<fpage>98</fpage>–<lpage>104</lpage>.<pub-id pub-id-type="pmid">24984689</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.drugalcdep.2014.06.005</pub-id></mixed-citation></ref><ref id="R5"><label>5.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cicero</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Inciardi</surname><given-names>JA</given-names></name>. <article-title>Potential for abuse of buprenorphine in office-based
+treatment of opioid dependence</article-title>. <source>N Engl J
+Med</source>
+<year>2005</year>;<volume>353</volume>:<fpage>1863</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">16251550</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJM200510273531724</pub-id></mixed-citation></ref><ref id="R6"><label>6.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Cunningham</surname><given-names>CO</given-names></name>, <name name-style="western"><surname>Kunins</surname><given-names>HV</given-names></name>, <name name-style="western"><surname>Roose</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Elam</surname><given-names>RT</given-names></name>, <name name-style="western"><surname>Sohler</surname><given-names>NL</given-names></name>. <article-title>Barriers to obtaining waivers to prescribe buprenorphine
+for opioid addiction treatment among HIV physicians</article-title>.
+<source>J Gen Intern Med</source>
+<year>2007</year>;<volume>22</volume>:<fpage>1325</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">17619934</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11606-007-0264-7</pub-id><pub-id pub-id-type="pmcid">PMC2219773</pub-id></mixed-citation></ref><ref id="R7"><label>7.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Fiellin</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Pantalon</surname><given-names>MV</given-names></name>, <name name-style="western"><surname>Chawarski</surname><given-names>MC</given-names></name>, <etal/>
+<article-title>Counseling plus buprenorphine-naloxone maintenance therapy for
+opioid dependence</article-title>. <source>N Engl J Med</source>
+<year>2006</year>;<volume>355</volume>:<fpage>365</fpage>–<lpage>74</lpage>.<pub-id pub-id-type="pmid">16870915</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa055255</pub-id></mixed-citation></ref><ref id="R8"><label>8.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Fiellin</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Schottenfeld</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Cutter</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Moore</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Barry</surname><given-names>DT</given-names></name>, <name name-style="western"><surname>O’Connor</surname><given-names>PG</given-names></name>. <article-title>Primary care-based buprenorphine taper vs maintenance
+therapy for prescription opioid dependence: a randomized clinical
+trial</article-title>. <source>JAMA internal medicine</source>
+<year>2014</year>;<volume>174</volume>:<fpage>1947</fpage>–<lpage>54</lpage>.<pub-id pub-id-type="pmid">25330017</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamainternmed.2014.5302</pub-id><pub-id pub-id-type="pmcid">PMC6167926</pub-id></mixed-citation></ref><ref id="R9"><label>9.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Garfein</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Collins</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Munoz</surname><given-names>F</given-names></name>, <etal/>
+<article-title>Feasibility of tuberculosis treatment monitoring by video
+directly observed therapy: a binational pilot study</article-title>.
+<source>Int J Tuberc Lung Dis</source>
+<year>2015</year>;<volume>19</volume>:<fpage>1057</fpage>–<lpage>64</lpage>.<pub-id pub-id-type="pmid">26260824</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.5588/ijtld.14.0923</pub-id><pub-id pub-id-type="pmcid">PMC5673092</pub-id></mixed-citation></ref><ref id="R10"><label>10.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Godersky</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Saxon</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Merrill</surname><given-names>JO</given-names></name>, <name name-style="western"><surname>Samet</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Simoni</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Tsui</surname><given-names>JI</given-names></name>. <article-title>Provider and patient perspectives on barriers to
+buprenorphine adherence and the acceptability of video directly observed
+therapy to enhance adherence</article-title>. <source>Addict Sci Clin
+Pract</source>
+<year>2019</year>;<volume>14</volume>:<fpage>11</fpage>.<pub-id pub-id-type="pmid">30867068</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13722-019-0139-3</pub-id><pub-id pub-id-type="pmcid">PMC6417248</pub-id></mixed-citation></ref><ref id="R11"><label>11.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gryczynski</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Jaffe</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>RP</given-names></name>, <etal/>
+<article-title>Patient perspectives on choosing buprenorphine over methadone in
+an urban, equal-access system</article-title>. <source>Am J Addict</source>
+<year>2013</year>;<volume>22</volume>:<fpage>285</fpage>–<lpage>91</lpage>.<pub-id pub-id-type="pmid">23617873</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1521-0391.2012.12004.x</pub-id><pub-id pub-id-type="pmcid">PMC4215541</pub-id></mixed-citation></ref><ref id="R12"><label>12.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gustafson</surname><given-names>DH</given-names><suffix>Sr</suffix></name>, <name name-style="western"><surname>Landucci</surname><given-names>G</given-names></name>, <name name-style="western"><surname>McTavish</surname><given-names>F</given-names></name>, <etal/>
+<article-title>The effect of bundling medication-assisted treatment for opioid
+addiction with mHealth: study protocol for a randomized clinical
+trial</article-title>. <source>Trials</source>
+<year>2016</year>;<volume>17</volume>:<fpage>592</fpage>.<pub-id pub-id-type="pmid">27955689</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13063-016-1726-1</pub-id><pub-id pub-id-type="pmcid">PMC5153683</pub-id></mixed-citation></ref><ref id="R13"><label>13.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Gwin Mitchell</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kelly</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>BS</given-names></name>, <etal/>
+<article-title>Uses of diverted methadone and buprenorphine by opioid-addicted
+individuals in Baltimore, Maryland</article-title>. <source>Am J
+Addict</source>
+<year>2009</year>;<volume>18</volume>:<fpage>346</fpage>–<lpage>55</lpage>.<pub-id pub-id-type="pmid">19874152</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/10550490903077820</pub-id><pub-id pub-id-type="pmcid">PMC2771323</pub-id></mixed-citation></ref><ref id="R14"><label>14.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hamine</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gerth-Guyette</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Faulx</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>BB</given-names></name>, <name name-style="western"><surname>Ginsburg</surname><given-names>AS</given-names></name>. <article-title>Impact of mHealth chronic disease management on
+treatment adherence and patient outcomes: a systematic
+review</article-title>. <source>J Med Internet Res</source>
+<year>2015</year>;<volume>17</volume>:<fpage>e52</fpage>.<pub-id pub-id-type="pmid">25803266</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2196/jmir.3951</pub-id><pub-id pub-id-type="pmcid">PMC4376208</pub-id></mixed-citation></ref><ref id="R15"><label>15.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hedegaard</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Minino</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Warner</surname><given-names>M</given-names></name>. <article-title>Drug Overdose Deaths in the United States,
+1999–2017</article-title>. <source>NCHS data brief</source>
+<year>2018</year>;<fpage>1</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">30500323</pub-id></mixed-citation></ref><ref id="R16"><label>16.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Holzman</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Zenilman</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shah</surname><given-names>M</given-names></name>. <article-title>Advancing patient-centered care in tuberculosis
+management: a mixed-methods appraisal of video directly observed
+therapy</article-title>. <source>Open Forum Infect Dis</source>
+<year>2018</year>;<volume>5</volume>:<fpage>ofy046</fpage>.<pub-id pub-id-type="pmid">29732378</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ofid/ofy046</pub-id><pub-id pub-id-type="pmcid">PMC5917780</pub-id></mixed-citation></ref><ref id="R17"><label>17.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Hser</surname><given-names>YI</given-names></name>, <name name-style="western"><surname>Evans</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>D</given-names></name>, <etal/>
+<article-title>Long-term outcomes after randomization to buprenorphine/naloxone
+versus methadone in a multi-site trial</article-title>.
+<source>Addiction</source>
+<year>2016</year>;<volume>111</volume>:<fpage>695</fpage>–<lpage>705</lpage>.<pub-id pub-id-type="pmid">26599131</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/add.13238</pub-id><pub-id pub-id-type="pmcid">PMC4801718</pub-id></mixed-citation></ref><ref id="R18"><label>18.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Korthuis</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Gregg</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Rogers</surname><given-names>WE</given-names></name>, <name name-style="western"><surname>McCarty</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Nicolaidis</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Boverman</surname><given-names>J</given-names></name>. <article-title>Patients’ reasons for choosing office-based
+buprenorphine: preference for patient-centered care</article-title>.
+<source>Journal of addiction medicine</source>
+<year>2010</year>;<volume>4</volume>:<fpage>204</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmid">21170143</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/ADM.0b013e3181cc9610</pub-id><pub-id pub-id-type="pmcid">PMC3002395</pub-id></mixed-citation></ref><ref id="R19"><label>19.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Mattick</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Breen</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kimber</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Davoli</surname><given-names>M</given-names></name>. <article-title>Buprenorphine maintenance versus placebo or methadone
+maintenance for opioid dependence</article-title>. <source>Cochrane Database
+Syst Rev</source>
+<year>2014</year>;<fpage>Cd002207</fpage>.<pub-id pub-id-type="pmid">15266465</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/14651858.CD002207.pub2</pub-id></mixed-citation></ref><ref id="R20"><label>20.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>McLellan</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Kushner</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Metzger</surname><given-names>D</given-names></name>, <etal/>
+<article-title>The Fifth Edition of the Addiction Severity
+Index</article-title>. <source>J Subst Abuse Treat</source>
+<year>1992</year>;<volume>9</volume>:<fpage>199</fpage>–<lpage>213</lpage>.<pub-id pub-id-type="pmid">1334156</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0740-5472(92)90062-s</pub-id></mixed-citation></ref><ref id="R21"><label>21.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Monte</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Mandell</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wilford</surname><given-names>BB</given-names></name>, <name name-style="western"><surname>Tennyson</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Boyer</surname><given-names>EW</given-names></name>. <article-title>Diversion of buprenorphine/naloxone coformulated tablets
+in a region with high prescribing prevalence</article-title>. <source>J
+Addict Dis</source>
+<year>2009</year>;<volume>28</volume>:<fpage>226</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">20155591</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/10550880903014767</pub-id></mixed-citation></ref><ref id="R22"><label>22.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Montoya</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Georges</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Poquette</surname><given-names>A</given-names></name>, <etal/>
+<article-title>Refining a personalized mHealth intervention to promote
+medication adherence among HIV+ methamphetamine users</article-title>.
+<source>AIDS Care</source>
+<year>2014</year>;<volume>26</volume>:<fpage>1477</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">24911433</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/09540121.2014.924213</pub-id><pub-id pub-id-type="pmcid">PMC4188758</pub-id></mixed-citation></ref><ref id="R23"><label>23.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Netherland</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Botsko</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Egan</surname><given-names>JE</given-names></name>, <etal/>
+<article-title>Factors affecting willingness to provide buprenorphine
+treatment</article-title>. <source>J Subst Abuse Treat</source>
+<year>2009</year>;<volume>36</volume>:<fpage>244</fpage>–<lpage>51</lpage>.<pub-id pub-id-type="pmid">18715741</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jsat.2008.06.006</pub-id><pub-id pub-id-type="pmcid">PMC2866292</pub-id></mixed-citation></ref><ref id="R24"><label>24.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Olano-Soler</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Thomas</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Joglar</surname><given-names>O</given-names></name>, <etal/>
+<article-title>Notes from the field: use of asynchronous video directly observed
+therapy for treatment of tuberculosis and latent tuberculosis infection in a
+long-term-care facility - Puerto Rico, 2016–2017</article-title>.
+<source>MMWR Morb Mortal Wkly Rep</source>
+<year>2017</year>;<volume>66</volume>:<fpage>1386</fpage>–<lpage>1387</lpage>.<pub-id pub-id-type="pmid">29267264</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.15585/mmwr.mm6650a5</pub-id><pub-id pub-id-type="pmcid">PMC5751577</pub-id></mixed-citation></ref><ref id="R25"><label>25.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Quanbeck</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Chih</surname><given-names>MY</given-names></name>, <name name-style="western"><surname>Isham</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gustafson</surname><given-names>D</given-names></name>. <article-title>Mobile Delivery of Treatment for Alcohol Use Disorders:
+A Review of the Literature</article-title>. <source>Alcohol Res</source>
+<year>2014</year>;<volume>36</volume>:<fpage>111</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">26259005</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.35946/arcr.v36.1.11</pub-id><pub-id pub-id-type="pmcid">PMC4432850</pub-id></mixed-citation></ref><ref id="R26"><label>26.</label><mixed-citation publication-type="book"><name name-style="western"><surname>Team</surname><given-names>RStudio</given-names></name>. <source>RStudio: Integrated Development for R</source>. In:
+<publisher-name>RStudio, Inc</publisher-name>
+<publisher-loc>Boston,
+MA</publisher-loc>: <year>2016</year>.</mixed-citation></ref><ref id="R27"><label>27.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Schuman-Olivier</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Albanese</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nelson</surname><given-names>SE</given-names></name>, <etal/>
+<article-title>Self-treatment: illicit buprenorphine use by opioid-dependent
+treatment seekers</article-title>. <source>J Subst Abuse Treat</source>
+<year>2010</year>;<volume>39</volume>:<fpage>41</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">20434868</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jsat.2010.03.014</pub-id></mixed-citation></ref><ref id="R28"><label>28.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Schuman-Olivier</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Borodovsky</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Steinkamp</surname><given-names>J</given-names></name>, <etal/>
+<article-title>MySafeRx: a mobile technology platform integrating motivational
+coaching, adherence monitoring, and electronic pill dispensing for enhancing
+buprenorphine/naloxone adherence during opioid use disorder treatment: a
+pilot study</article-title>. <source>Addict Sci Clin Pract</source>
+<year>2018</year>;<volume>13</volume>:<fpage>21</fpage>.<pub-id pub-id-type="pmid">30249279</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13722-018-0122-4</pub-id><pub-id pub-id-type="pmcid">PMC6154900</pub-id></mixed-citation></ref><ref id="R29"><label>29.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Story</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Garfein</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Hayward</surname><given-names>A</given-names></name>, <etal/>
+<article-title>Monitoring Therapy Compliance of Tuberculosis Patients by using
+Video-Enabled Electronic Devices</article-title>. <source>Emerg Infect
+Dis</source>
+<year>2016</year>;<volume>22</volume>:<fpage>538</fpage>–<lpage>40</lpage>.<pub-id pub-id-type="pmid">26891363</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3201/eid2203.151620</pub-id><pub-id pub-id-type="pmcid">PMC4766903</pub-id></mixed-citation></ref><ref id="R30"><label>30.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Tofighi</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Grazioli</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Bereket</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Grossman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Aphinyanaphongs</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>JD</given-names></name>. <article-title>Text message reminders for improving patient appointment
+adherence in an office-based buprenorphine program: A feasibility
+study</article-title>. <source>Am J Addict</source>
+<year>2017</year>;<volume>26</volume>:<fpage>581</fpage>–<lpage>586</lpage>.<pub-id pub-id-type="pmid">28799677</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ajad.12557</pub-id></mixed-citation></ref><ref id="R31"><label>31.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Tofighi</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Grossman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Buirkle</surname><given-names>E</given-names></name>, <name name-style="western"><surname>McNeely</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gourevitch</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>JD</given-names></name>. <article-title>Mobile phone use patterns and preferences in safety net
+office-based buprenorphine patients</article-title>. <source>Journal of
+addiction medicine</source>
+<year>2015</year>;<volume>9</volume>:<fpage>217</fpage>–<lpage>21</lpage>.<pub-id pub-id-type="pmid">25918966</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/ADM.0000000000000121</pub-id><pub-id pub-id-type="pmcid">PMC4693598</pub-id></mixed-citation></ref><ref id="R32"><label>32.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Walley</surname><given-names>AY</given-names></name>, <name name-style="western"><surname>Alperen</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>DM</given-names></name>, <etal/>
+<article-title>Office-based management of opioid dependence with buprenorphine:
+clinical practices and barriers</article-title>. <source>J Gen Intern
+Med</source>
+<year>2008</year>;<volume>23</volume>:<fpage>1393</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">18592319</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11606-008-0686-x</pub-id><pub-id pub-id-type="pmcid">PMC2518016</pub-id></mixed-citation></ref><ref id="R33"><label>33.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Weinstein</surname><given-names>ZM</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>HW</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>DM</given-names></name>, <etal/>
+<article-title>Long-term retention in Office Based Opioid Treatment with
+buprenorphine</article-title>. <source>J Subst Abuse Treat</source>
+<year>2017</year>;<volume>74</volume>:<fpage>65</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">28132702</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jsat.2016.12.010</pub-id><pub-id pub-id-type="pmcid">PMC5312773</pub-id></mixed-citation></ref><ref id="R34"><label>34.</label><mixed-citation publication-type="journal"><name name-style="western"><surname>Yarborough</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Stumbo</surname><given-names>SP</given-names></name>, <name name-style="western"><surname>McCarty</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Mertens</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Weisner</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>CA</given-names></name>. <article-title>Methadone, buprenorphine and preferences for opioid
+agonist treatment: A qualitative analysis</article-title>. <source>Drug
+Alcohol Depend</source>
+<year>2016</year>;<volume>160</volume>:<fpage>112</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">26796596</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.drugalcdep.2015.12.031</pub-id><pub-id pub-id-type="pmcid">PMC4767611</pub-id></mixed-citation></ref></ref-list></back><floats-group><fig id="F1" orientation="portrait" position="float"><label>Figure 1:</label><caption><p id="P32">Number of Daily Videos Submitted for Each Study Week by Participant
+(n=14) *Participant incarcerated for two weeks</p><p id="P33">**Participant unable/unwilling to upload videos</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1549010-f0001.jpg"/></fig><fig id="F2" orientation="portrait" position="float"><label>Figure 2:</label><caption><p id="P34">Correlation of Self-Report Adherence and Video Adherence</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1549010-f0002.jpg"/></fig><fig id="F3" orientation="portrait" position="float"><label>Figure 3:</label><caption><p id="P35">Correlation of Time on Buprenorphine Treatment and Video-DOT Adherence
+(n=14)</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="nihms-1549010-f0003.jpg"/></fig><table-wrap id="T1" position="float" orientation="portrait"><label>Table 1:</label><caption><p id="P36">Characteristics of video-DOT participants for buprenorphine in
+office-based setting (n=14)</p></caption><table frame="box" rules="cols"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">Race (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> White, not Latino</td><td align="left" valign="top" rowspan="1" colspan="1">11 (78.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Black, not Latino</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Latino</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Other</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Mean (SD)</td><td align="left" valign="top" rowspan="1" colspan="1">44.7 (12.2)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Range</td><td align="left" valign="top" rowspan="1" colspan="1">28–61</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Median (IQR)</td><td align="left" valign="top" rowspan="1" colspan="1">46.5 (32, 54.5)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sex (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Male</td><td align="left" valign="top" rowspan="1" colspan="1">12 (85.7)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Female</td><td align="left" valign="top" rowspan="1" colspan="1">2 (14.3)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1">On the street/in a shelter in past 90 days (n
+(%))</td><td align="left" valign="top" rowspan="1" colspan="1">4 (28.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Days in treatment</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Range</td><td align="left" valign="top" rowspan="1" colspan="1">7–672</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Mean (SD)</td><td align="left" valign="top" rowspan="1" colspan="1">199.1 (243.7)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Median (IQR)</td><td align="left" valign="top" rowspan="1" colspan="1">77.5 (17.0, 412.2)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1">Patients with &lt;90 days in treatment (n
+(%))</td><td align="left" valign="top" rowspan="1" colspan="1">8 (57.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Dosing schedule (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Once daily</td><td align="left" valign="top" rowspan="1" colspan="1">5 (35.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Twice daily</td><td align="left" valign="top" rowspan="1" colspan="1">8 (57.1)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Three times daily</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Total mg daily dose (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> 8 mg</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> 12 mg</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> 16 mg</td><td align="left" valign="top" rowspan="1" colspan="1">8 (57.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> 20 mg</td><td align="left" valign="top" rowspan="1" colspan="1">2 (14.3)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> 24 mg</td><td align="left" valign="top" rowspan="1" colspan="1">2 (14.3)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Medication type (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Film</td><td align="left" valign="top" rowspan="1" colspan="1">5 (35.7)</td></tr><tr style="border-bottom: solid 1px"><td align="left" valign="top" rowspan="1" colspan="1"> Tablet</td><td align="left" valign="top" rowspan="1" colspan="1">9 (64.3)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Previous medication treatment for opioid use
+disorder (n (%))</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Buprenorphine</td><td align="left" valign="top" rowspan="1" colspan="1">6 (42.9)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"> Methadone</td><td align="left" valign="top" rowspan="1" colspan="1">8 (57.1)</td></tr></tbody></table></table-wrap><table-wrap id="T2" position="float" orientation="portrait"><label>Table 2:</label><caption><p id="P59">Video directly observed therapy usage: percentage of days buprenorphine
+ingestion confirmed with videos (n=14)</p></caption><table frame="box" rules="all"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th rowspan="2" align="left" valign="middle" colspan="1">Medication Adherence</th><th colspan="3" align="center" valign="top" rowspan="1">All Participants (n=14)</th><th colspan="3" align="center" valign="top" rowspan="1">Completed Per Protocol
+(n=12)<xref rid="TFN1" ref-type="table-fn">*</xref></th></tr><tr><th align="center" valign="top" rowspan="1" colspan="1">Range</th><th align="center" valign="top" rowspan="1" colspan="1">Median (IQR)</th><th align="center" valign="top" rowspan="1" colspan="1">Mean (SD)</th><th align="center" valign="top" rowspan="1" colspan="1">Range</th><th align="center" valign="top" rowspan="1" colspan="1">Median (IQR)</th><th align="center" valign="top" rowspan="1" colspan="1">Mean (SD)</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold># of Days with a video
+submission</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">0–27</td><td align="center" valign="middle" rowspan="1" colspan="1">20.5 (14.0 – 24.0)</td><td align="center" valign="middle" rowspan="1" colspan="1">17.7 (8.5)</td><td align="center" valign="middle" rowspan="1" colspan="1">5–27</td><td align="center" valign="middle" rowspan="1" colspan="1">22.5 (17.8–24.0)</td><td align="center" valign="middle" rowspan="1" colspan="1">20.1 (6.4)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>% of Days with a video
+submission</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">0–96.4%</td><td align="center" valign="middle" rowspan="1" colspan="1">73.2% (50.0, 85.7)</td><td align="center" valign="middle" rowspan="1" colspan="1">63.3% (30.4%)</td><td align="center" valign="middle" rowspan="1" colspan="1">17.9–96.4%</td><td align="center" valign="middle" rowspan="1" colspan="1">80.4% (63.4–85.7%)</td><td align="center" valign="middle" rowspan="1" colspan="1">71.7% (22.7%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold># of Days with self-reported
+dosing</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">4–28</td><td align="center" valign="middle" rowspan="1" colspan="1">27 (21.3, 28)</td><td align="center" valign="middle" rowspan="1" colspan="1">22.6 (8.0)</td><td align="center" valign="middle" rowspan="1" colspan="1">15–28</td><td align="center" valign="middle" rowspan="1" colspan="1">27 (25–28)</td><td align="center" valign="middle" rowspan="1" colspan="1">25.4 (4.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>% of Days with self-reported
+dosing</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">14.3–100%</td><td align="center" valign="middle" rowspan="1" colspan="1">96.4% (75.9,100)</td><td align="center" valign="middle" rowspan="1" colspan="1">80.9% (28.6)</td><td align="center" valign="middle" rowspan="1" colspan="1">53.6–100%</td><td align="center" valign="middle" rowspan="1" colspan="1">96.4% (89.3–100%)</td><td align="center" valign="middle" rowspan="1" colspan="1">90.8 (14.5%)</td></tr></tbody></table><table-wrap-foot><fn id="TFN1"><label>*</label><p id="P60">Excludes one participant who was incarcerated for two weeks and one
+participant unable/unwilling to upload videos</p></fn></table-wrap-foot></table-wrap><table-wrap id="T3" position="float" orientation="portrait"><label>Table 3:</label><caption><p id="P61">Patient Experience Using video-DOT Smart Phone Application</p></caption><table frame="box" rules="all"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="left" valign="top" rowspan="1" colspan="1"/><th align="center" valign="top" rowspan="1" colspan="1">n (%)</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>Application likes/benefits</bold></td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Increased accountability for and structure to
+medication administration</td><td align="left" valign="top" rowspan="1" colspan="1">10 (71.4)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Simple to use</td><td align="left" valign="top" rowspan="1" colspan="1">8 (57.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Helpful</td><td align="left" valign="top" rowspan="1" colspan="1">4 (28.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Assisted with reflection on progress in
+treatment</td><td align="left" valign="top" rowspan="1" colspan="1">3 (21.4)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Provided an extra contact point</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Helped to open dialogue about recovery with
+family/friends</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Learning to use new technology</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Flexibility to use the application as it fit
+personal schedule</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"><bold>Application dislikes/barriers to
+use</bold></td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Discomfort/awkwardness of filming medication
+administration</td><td align="left" valign="top" rowspan="1" colspan="1">6 (42.9)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Time commitment/adding steps to medication
+ingestion</td><td align="left" valign="top" rowspan="1" colspan="1">5 (35.7)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Application frustrations (charging phone,
+logging in for each use, agreeing to terms of use)</td><td align="left" valign="top" rowspan="1" colspan="1">4 (28.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Technical issues (videos not uploading,
+application closing)</td><td align="left" valign="top" rowspan="1" colspan="1">4 (28.6)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Finding private space to use application</td><td align="left" valign="top" rowspan="1" colspan="1">3 (21.4)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Difficulty remembering to use application</td><td align="left" valign="top" rowspan="1" colspan="1">2 (14.3)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Question regarding craving triggered desire to
+use</td><td align="left" valign="top" rowspan="1" colspan="1">1 (7.1)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Nothing to report</td><td align="left" valign="top" rowspan="1" colspan="1">2 (14.3)</td></tr></tbody></table></table-wrap></floats-group></article></pmc-articleset>
