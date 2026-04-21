@@ -1,33 +1,23 @@
 {
   "name": "evidence_synthesis",
   "mode": "collection",
-  "instructions": "Synthesize across ALL provided articles. Note disagreements between studies.",
+  "instructions": "Synthesize across ALL provided articles.",
   "fields": [
     {
-      "name": "n_studies",
-      "type": "integer",
-      "description": "Number of distinct primary studies across the provided articles.",
+      "name": "Health Literacy",
+      "type": "string",
+      "description": "Ability to find, umderstand and use of health-related information, which can be expressed as health knowledge, health literacy, patient educaiton or patient medication knowledge.",
       "required": true
     },
     {
-      "name": "common_intervention",
+      "name": "Patient Autonomy",
       "type": "string",
-      "description": "Intervention or exposure shared across the articles, if any."
+      "description": "The ability of individuals to take independent action in managing their health and actively participate in decisions about their care, which can be expressed as patient autonomy, patient empowerment, patient agency, patient involvement, patient decision making, patient experience, patient participation."
     },
     {
-      "name": "pooled_findings",
+      "name": "Adherence",
       "type": "string",
-      "description": "High-level synthesis of what the body of evidence shows."
-    },
-    {
-      "name": "points_of_disagreement",
-      "type": "list[string]",
-      "description": "Specific points where the articles disagree or report inconsistent results."
-    },
-    {
-      "name": "evidence_gaps",
-      "type": "list[string]",
-      "description": "Open questions or populations not covered by the provided articles."
+      "description": "The compliance of the patients to actively follow parts of therapy agreed with their physician, which can be expressed as treatment adherence, therapy adherence, patient adherence, medicaiton adherence, treatment compliance."
     }
   ]
 }
