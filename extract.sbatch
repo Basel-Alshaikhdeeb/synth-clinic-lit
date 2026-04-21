@@ -19,9 +19,22 @@ OLLAMA_SIF="${OLLAMA_SIF:-$HOME/containers/ollama.sif}"   # Apptainer image
 OLLAMA_MODELS_DIR="${OLLAMA_MODELS_DIR:-$HOME/.ollama}"   # persistent model cache
 PROJECT_DIR="${PROJECT_DIR:-$HOME/synth-clinic-lit}"
 SCHEMA="${SCHEMA:-examples/schema_clinical_trial.json}"
-IDS_FILE="${IDS_FILE:-ids.txt}"
+# Input source — set EITHER IDS_FILE (resolve + download + extract)
+# OR XML_DIR (skip download, extract from local JATS XML files).
+IDS_FILE="${IDS_FILE:-}"            # e.g. ids.txt
+XML_DIR="${XML_DIR:-}"              # e.g. ./articles
+RESULTS="${RESULTS:-extractions.json}"
 MODEL="${MODEL:-llama3.1:8b}"
 NUM_CTX="${NUM_CTX:-16384}"
+
+if [[ -z "${IDS_FILE}" && -z "${XML_DIR}" ]]; then
+    echo "ERROR: set IDS_FILE or XML_DIR" >&2
+    exit 2
+fi
+if [[ -n "${IDS_FILE}" && -n "${XML_DIR}" ]]; then
+    echo "ERROR: set only one of IDS_FILE / XML_DIR, not both" >&2
+    exit 2
+fi
 
 # ---- Ollama server config --------------------------------------------------
 # Pick a free-ish port (stagger by job id so parallel jobs don't clash).
@@ -66,9 +79,17 @@ apptainer exec --nv \
 # synthclinclit reads OLLAMA_HOST automatically (ollama-python convention).
 export OLLAMA_HOST
 
+SOURCE_ARGS=()
+if [[ -n "${XML_DIR}" ]]; then
+    SOURCE_ARGS+=(--xml-dir "${XML_DIR}")
+else
+    SOURCE_ARGS+=(-f "${IDS_FILE}")
+fi
+
 synthclinclit extract \
     -s "${SCHEMA}" \
-    -f "${IDS_FILE}" \
+    "${SOURCE_ARGS[@]}" \
+    -r "${RESULTS}" \
     --backend ollama \
     --model "${MODEL}" \
     --num-ctx "${NUM_CTX}"
