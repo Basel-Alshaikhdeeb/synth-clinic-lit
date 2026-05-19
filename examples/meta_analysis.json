@@ -1,0 +1,82 @@
+{
+  "name": "clinical_trial_summary",
+  "mode": "per_article",
+  "instructions": "Focus on the primary trial reported in this article. Ignore cited trials.",
+  "fields": [
+    {
+      "name": "Randomized Controlled Trials",
+      "type": "boolean",
+      "description": "True if the study is an interventional study where participants are randomly assigned to one or more intervention groups. False if the study is theoretical with no intervention (e.g., observational, pilot, descriptive), or the study is interventional without random allocation of participants.",
+      "required": true
+    },
+    
+    {
+      "name": "Nonrandomized Interventional Study",
+      "type": "boolean",
+      "description": "True if the study is an interventional study without random allocation of participants. False if the study is theoretical with no intervention (e.g., observational, pilot, descriptive), or the study is interventional with random allocation of participants to one or more intervention groups.",
+      "required": true
+    },
+    
+    {
+      "name": "Observational Study",
+      "type": "boolean",
+      "description": "True if the study aims at observing outcomes without assigning interventions. False if the study is interventional or if it mixes quantitative and qualitative research methods.",
+      "required": true
+    },
+    
+    {
+      "name": "Pilot / Feasibility Study",
+      "type": "boolean",
+      "description": "True if the study is a preliminary study assessing feasibility, acceptability, recruitment, or implementation before a larger trial. False if that it has not been stated explicitly.",
+      "required": true
+    },
+    
+    {
+      "name": "Mixed-Methods Study",
+      "type": "boolean",
+      "description": "True if the study integrates quantitative and qualitative research methods. False if the study is either quantitative only (i.e., interventional), qualitative only (i.e., observational), or if the study is a pilot.",
+      "required": true
+    },
+    
+    {
+      "name": "Randomized Controlled Trials sub-category",
+      "type": "string",
+      "description": "Predominant category of Randomized Controlled Trials. Populate ONLY when 'Randomized Controlled Trials' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Parallel", "Pragmatic", "Cluster", "Superiority", "Factorial", "Single-blind", "Multi-arm"]
+    }
+    
+    {
+      "name": "Nonrandomized Interventional Study sub-category",
+      "type": "string",
+      "description": "Predominant category of Nonrandomized Interventional Study. Populate ONLY when 'Nonrandomized Interventional Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Quasi-experimental", "Controlled nonrandomized trial", "Single-group pre–post study", "Repeated-measures design"]
+    },
+    
+    {
+      "name": "Observational Study sub-category",
+      "type": "string",
+      "description": "Predominant category of Observational Study. Populate ONLY when 'Observational Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Cohort study", "Cross-sectional study", "Case-control study", "Prospective observational study"]
+    },
+    
+    {
+      "name": "Pilot / Feasibility Study sub-category",
+      "type": "string",
+      "description": "Predominant category of Pilot / Feasibility Study. Populate ONLY when 'Pilot / Feasibility Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Pilot randomized controlled trials", "Feasibility study", "Pilot cohort study", "Feasibility factorial study"]
+    },
+    
+    {
+      "name": "Mixed-Methods Study sub-category",
+      "type": "string",
+      "description": "Predominant category of Mixed-Methods Study. Populate ONLY when 'Mixed-Methods Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Mixed-methods randomized controlled trials", "Mixed-methods evaluation", "Prospective mixed-methods study"]
+    }
+  
+    {
+      "name": "number of participants",
+      "type": "integer",
+      "description": "Total number of human participants enrolled. Null if not human or not reported."
+    }
+  ]
+}
