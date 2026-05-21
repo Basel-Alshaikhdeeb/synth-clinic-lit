@@ -13,7 +13,7 @@ from rich.table import Table
 from .downloader import PMCDownloader
 from .extractor import ArtefactExtractor, ArtefactSchema
 from .id_resolver import resolve_ids
-from .parser import parse_jats
+from .parser import ParsedArticle, parse_jats
 
 app = typer.Typer(help="Download PMC full-text articles and extract user-defined artefacts.")
 console = Console()
@@ -121,6 +121,9 @@ def extract(
     ids: list[str] = typer.Option(None, "--id", "-i"),
     id_file: Path = typer.Option(None, "--id-file", "-f"),
     xml_dir: Path = typer.Option(None, "--xml-dir", help="Use already-downloaded XML from this directory"),
+    text_dir: Path = typer.Option(None, "--text-dir",
+                                  help="Use plain-text articles (one .txt per article) from this directory. "
+                                       "Filename stem is used as the 'source' in the output."),
     out_dir: Path = typer.Option(Path("./articles"), "--out", "-o"),
     backend: str = typer.Option("anthropic", "--backend", "-b",
                                 help="LLM backend: 'anthropic' (hosted) or 'ollama' (local)"),
@@ -135,13 +138,26 @@ def extract(
     """Download (if needed), parse, then run LLM extraction using the user schema."""
     schema = ArtefactSchema.from_file(schema_path)
 
+    if text_dir and (xml_dir or ids or id_file):
+        raise typer.BadParameter("--text-dir is mutually exclusive with --xml-dir / --id / --id-file")
+
     articles = []
-    if xml_dir and ids is None and id_file is None:
+    xml_files: list[Path] = []
+    if text_dir:
+        for p in sorted(text_dir.glob("*.txt")):
+            try:
+                text = p.read_text().strip()
+                if not text:
+                    console.print(f"[yellow]skip[/] {p.name}: empty file")
+                    continue
+                articles.append(ParsedArticle(source=p.stem, sections=[("", text)]))
+            except Exception as e:  # noqa: BLE001
+                console.print(f"[red]read error[/] {p.name}: {e}")
+    elif xml_dir and ids is None and id_file is None:
         xml_files = sorted(xml_dir.glob("*.xml"))
     else:
         raw = _read_ids(ids, id_file)
         resolved = resolve_ids(raw)
-        xml_files = []
         with PMCDownloader() as dl:
             for r in resolved:
                 if not r.pmcid:

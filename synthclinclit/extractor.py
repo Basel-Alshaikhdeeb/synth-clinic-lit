@@ -176,7 +176,7 @@ class ArtefactExtractor:
     def extract_one(self, article: ParsedArticle) -> ExtractionResult:
         prompt = self._build_user_prompt([article])
         raw = self._call(prompt)
-        source = article.pmcid or article.doi or article.pmid or "article"
+        source = article.source or article.pmcid or article.doi or article.pmid or "article"
         try:
             data = self._parse_json(raw)
             return ExtractionResult(source=source, data=data, raw=raw)

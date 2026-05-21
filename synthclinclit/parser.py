@@ -18,6 +18,7 @@ class ParsedArticle:
     authors: list[str] = field(default_factory=list)
     abstract: str = ""
     sections: list[tuple[str, str]] = field(default_factory=list)  # (heading, text)
+    source: str | None = None  # explicit label (e.g. filename for plain-text input)
 
     def as_text(self, include_abstract: bool = True) -> str:
         parts: list[str] = []
