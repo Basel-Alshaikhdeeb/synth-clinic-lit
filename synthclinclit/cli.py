@@ -1,6 +1,7 @@
 """Typer-based CLI for end-to-end retrieval + extraction."""
 from __future__ import annotations
 
+import csv
 import json
 import sys
 from pathlib import Path
@@ -183,6 +184,57 @@ def extract(
 
     if sys.stdout.isatty():
         console.print_json(json.dumps([{"source": r.source, "data": r.data} for r in results]))
+
+
+@app.command("to-csv")
+def to_csv(
+    results_path: Path = typer.Option(Path("./extractions.json"), "--results", "-r",
+                                      help="Extraction results JSON produced by `extract`"),
+    out_path: Path = typer.Option(Path("./extractions.csv"), "--out", "-o",
+                                  help="Destination CSV path"),
+    schema_path: Path = typer.Option(None, "--schema", "-s",
+                                     help="Optional schema for deterministic column order"),
+) -> None:
+    """Convert extraction results JSON to CSV.
+
+    Per-cell rules (only populated fields produce content):
+      - boolean true  → the field name (e.g. 'Reports Intervention')
+      - boolean false → empty
+      - string value  → the value itself
+      - list[string]  → values joined with '; '
+      - null / empty  → empty
+    """
+    payload = json.loads(results_path.read_text())
+
+    if schema_path:
+        schema = ArtefactSchema.from_file(schema_path)
+        columns = [f.name for f in schema.fields]
+    else:
+        columns = []
+        for row in payload:
+            for k in (row.get("data") or {}):
+                if k not in columns:
+                    columns.append(k)
+
+    def cell(name: str, value) -> str:
+        if value is None:
+            return ""
+        if isinstance(value, bool):
+            return name if value else ""
+        if isinstance(value, str):
+            return value
+        if isinstance(value, list):
+            return "; ".join(str(x) for x in value if x not in (None, ""))
+        return str(value)
+
+    with out_path.open("w", newline="") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["source"] + columns)
+        for row in payload:
+            data = row.get("data") or {}
+            writer.writerow([row.get("source", "")] + [cell(c, data.get(c)) for c in columns])
+
+    console.print(f"[green]Wrote CSV →[/] {out_path}")
 
 
 if __name__ == "__main__":

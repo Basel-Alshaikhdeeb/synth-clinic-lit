@@ -1,12 +1,12 @@
 {
   "name": "evidence_synthesis",
   "mode": "collection",
-  "instructions": "Synthesize across ALL provided articles.",
+  "instructions": "Synthesize across ALL provided articles. Conditional rule: if 'Reports Intervention' is true, you MUST populate 'Intervention Type' with one of its allowed values; if it is false, 'Intervention Type' MUST be null.",
   "fields": [
     {
       "name": "Health Literacy",
       "type": "string",
-      "description": "Ability to find, umderstand and use of health-related information, which can be expressed as health knowledge, health literacy, patient educaiton or patient medication knowledge.",
+      "description": "Ability to find, understand and use of health-related information, which can be expressed as health knowledge, health literacy, patient educaiton or patient medication knowledge.",
       "required": true
     },
     {
@@ -17,7 +17,26 @@
     {
       "name": "Adherence",
       "type": "string",
-      "description": "The compliance of the patients to actively follow parts of therapy agreed with their physician, which can be expressed as treatment adherence, therapy adherence, patient adherence, medicaiton adherence, treatment compliance."
+      "description": "The compliance of the patients to actively follow parts of therapy agreed with their physician, which can be expressed as treatment adherence, therapy adherence, patient adherence, medication adherence, treatment compliance."
+    },
+    {
+      "name": "Evidence Strength",
+      "type": "string",
+      "description": "Overall strength of evidence across the provided articles for the synthesized claims. Choose exactly one of the allowed values.",
+      "enum": ["strong", "moderate", "weak", "insufficient"],
+      "required": true
+    },
+    {
+      "name": "Reports Intervention",
+      "type": "boolean",
+      "description": "True if the synthesized evidence describes one or more concrete interventions aimed at improving the patient-side concepts above (health literacy, autonomy, or adherence). False if the articles are purely observational, descriptive, or theoretical with no intervention.",
+      "required": true
+    },
+    {
+      "name": "Intervention Type",
+      "type": "string",
+      "description": "Predominant category of intervention across the articles. Populate ONLY when 'Reports Intervention' is true; otherwise return null. Choose exactly one of the allowed values.",
+      "enum": ["educational", "technological", "behavioral", "organizational", "mixed"]
     }
   ]
 }
