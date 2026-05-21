@@ -8,7 +8,7 @@
       "type": "boolean",
       "description": "True if the study is an interventional study where participants are randomly assigned to one or more intervention groups. False if the study is theoretical with no intervention (e.g., observational, pilot, descriptive), or the study is interventional without random allocation of participants.",
       "required": true
-    },
+    },    
     {
       "name": "Nonrandomized Interventional Study",
       "type": "boolean",
@@ -37,36 +37,57 @@
       "name": "Randomized Controlled Trials sub-category",
       "type": "string",
       "description": "Predominant category of Randomized Controlled Trials. Populate ONLY when 'Randomized Controlled Trials' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Parallel", "Pragmatic", "Cluster", "Superiority", "Factorial", "Single-blind", "Multi-arm"]
+      "enum": ["Parallel", "Pragmatic", "Cluster", "Superiority", "Factorial", "Single-blind", "Multi-arm", "null"]
     },
     {
       "name": "Nonrandomized Interventional Study sub-category",
       "type": "string",
       "description": "Predominant category of Nonrandomized Interventional Study. Populate ONLY when 'Nonrandomized Interventional Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Quasi-experimental", "Controlled nonrandomized trial", "Single-group pre–post study", "Repeated-measures design"]
+      "enum": ["Quasi-experimental", "Controlled nonrandomized trial", "Single-group pre–post study", "Repeated-measures design", "null"]
     },
     {
       "name": "Observational Study sub-category",
       "type": "string",
       "description": "Predominant category of Observational Study. Populate ONLY when 'Observational Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Cohort study", "Cross-sectional study", "Case-control study", "Prospective observational study"]
+      "enum": ["Cohort study", "Cross-sectional study", "Case-control study", "Prospective observational study", "null"]
     },
     {
       "name": "Pilot / Feasibility Study sub-category",
       "type": "string",
       "description": "Predominant category of Pilot / Feasibility Study. Populate ONLY when 'Pilot / Feasibility Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Pilot randomized controlled trials", "Feasibility study", "Pilot cohort study", "Feasibility factorial study"]
+      "enum": ["Pilot randomized controlled trials", "Feasibility study", "Pilot cohort study", "Feasibility factorial study", "null"]
     },
     {
       "name": "Mixed-Methods Study sub-category",
       "type": "string",
       "description": "Predominant category of Mixed-Methods Study. Populate ONLY when 'Mixed-Methods Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Mixed-methods randomized controlled trials", "Mixed-methods evaluation", "Prospective mixed-methods study"]
+      "enum": ["Mixed-methods randomized controlled trials", "Mixed-methods evaluation", "Prospective mixed-methods study", "null"]
     },
     {
       "name": "number of participants",
       "type": "integer",
       "description": "Total number of human participants enrolled. Null if not human or not reported."
+    },
+    {
+      "name": "Health Condition",
+      "type": "string",
+      "description": "Any disease, disorder, illness, syndrome, injury, impairment, chronic condition, mental health condition, medical diagnosis, or clinically relevant health state affecting an individual or population. This includes physical, mental, neurological, infectious, developmental, metabolic, cardiovascular, respiratory, dermatological, reproductive, and age-related conditions. Return null if not reported."
+    },
+    {
+      "name": "Health Condition Category",
+      "type": "string",
+      "description": "Predominant category of Health Condition. Populate ONLY when 'Health Condition' is not null; otherwise return null. Choose exactly one of the allowed values.",
+      "enum":  ["Mental Health", "Cancer", "Cardiovascular Disease", "Respiratory Disease", "Neurological Disorder", "Metabolic Disorder", "Infectious Disease", "Musculoskeletal Disorder", "Dermatological Disorder", "Gastrointestinal Disorder", "Renal Disease", "Autoimmune Disease", "Developmental Disorder", "Reproductive Health", "Behavioral Health", "Rare Disease", "Chronic Disease", "Acute Condition", "null"]
+    },
+    {
+      "name": "Healthcare Technology",
+      "type": "string",
+      "description": "Technologies intended to capture, monitor, document, report, analyze, or improve patient-related health indicators, including adherence to medications, comprehension of health information, and other behavioral or clinical health factors. Return null if not reported."
+    },
+    {
+      "name": "Purpose of Healthcare Technology",
+      "type": "string",
+      "description": "Predominant category of Healthcare Technology. Populate ONLY when 'Healthcare Technology' is not null by stating the purpose of the mentioned technology; otherwise retrun null."
     }
   ]
 }
