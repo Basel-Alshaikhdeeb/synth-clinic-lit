@@ -194,6 +194,9 @@ def to_csv(
                                   help="Destination CSV path"),
     schema_path: Path = typer.Option(None, "--schema", "-s",
                                      help="Optional schema for deterministic column order"),
+    keep_empty: bool = typer.Option(False, "--keep-empty",
+                                    help="Keep columns whose every cell is null/false/empty "
+                                         "(by default such columns are dropped)"),
 ) -> None:
     """Convert extraction results JSON to CSV.
 
@@ -203,6 +206,8 @@ def to_csv(
       - string value  → the value itself
       - list[string]  → values joined with '; '
       - null / empty  → empty
+
+    Columns whose every cell ends up empty are dropped unless --keep-empty.
     """
     payload = json.loads(results_path.read_text())
 
@@ -227,12 +232,21 @@ def to_csv(
             return "; ".join(str(x) for x in value if x not in (None, ""))
         return str(value)
 
+    matrix = [
+        [cell(c, (row.get("data") or {}).get(c)) for c in columns]
+        for row in payload
+    ]
+
+    if not keep_empty and columns:
+        keep = [any(matrix[r][i] != "" for r in range(len(matrix))) for i in range(len(columns))]
+        columns = [c for c, k in zip(columns, keep) if k]
+        matrix = [[v for v, k in zip(row, keep) if k] for row in matrix]
+
     with out_path.open("w", newline="") as fh:
         writer = csv.writer(fh)
         writer.writerow(["source"] + columns)
-        for row in payload:
-            data = row.get("data") or {}
-            writer.writerow([row.get("source", "")] + [cell(c, data.get(c)) for c in columns])
+        for row, values in zip(payload, matrix):
+            writer.writerow([row.get("source", "")] + values)
 
     console.print(f"[green]Wrote CSV →[/] {out_path}")
 
