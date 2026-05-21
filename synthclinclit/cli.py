@@ -197,6 +197,10 @@ def to_csv(
     keep_empty: bool = typer.Option(False, "--keep-empty",
                                     help="Keep columns whose every cell is null/false/empty "
                                          "(by default such columns are dropped)"),
+    merge_booleans: str = typer.Option(None, "--merge-booleans",
+                                       help="Collapse every boolean column into a single column "
+                                            "with this name. Each row's cell lists ('; '-joined) "
+                                            "the names of the boolean fields that were true."),
 ) -> None:
     """Convert extraction results JSON to CSV.
 
@@ -208,11 +212,13 @@ def to_csv(
       - null / empty  → empty
 
     Columns whose every cell ends up empty are dropped unless --keep-empty.
+    With --merge-booleans NAME, all boolean fields are folded into one
+    column under NAME before the empty-column pass.
     """
     payload = json.loads(results_path.read_text())
 
-    if schema_path:
-        schema = ArtefactSchema.from_file(schema_path)
+    schema = ArtefactSchema.from_file(schema_path) if schema_path else None
+    if schema:
         columns = [f.name for f in schema.fields]
     else:
         columns = []
@@ -236,6 +242,42 @@ def to_csv(
         [cell(c, (row.get("data") or {}).get(c)) for c in columns]
         for row in payload
     ]
+
+    if merge_booleans:
+        if schema:
+            bool_cols = {f.name for f in schema.fields if f.type == "boolean"}
+        else:
+            bool_cols = set()
+            for c in columns:
+                seen = False
+                ok = True
+                for row in payload:
+                    v = (row.get("data") or {}).get(c)
+                    if v is None:
+                        continue
+                    if not isinstance(v, bool):
+                        ok = False
+                        break
+                    seen = True
+                if seen and ok:
+                    bool_cols.add(c)
+
+        if bool_cols:
+            first_bool_idx = next((i for i, c in enumerate(columns) if c in bool_cols), len(columns))
+            insert_at = sum(1 for c in columns[:first_bool_idx] if c not in bool_cols)
+
+            merged_cells = [
+                "; ".join(c for c, v in zip(columns, row_vals) if c in bool_cols and v == c)
+                for row_vals in matrix
+            ]
+
+            keep_mask = [c not in bool_cols for c in columns]
+            columns = [c for c, k in zip(columns, keep_mask) if k]
+            matrix = [[v for v, k in zip(row, keep_mask) if k] for row in matrix]
+
+            columns.insert(insert_at, merge_booleans)
+            for row, m in zip(matrix, merged_cells):
+                row.insert(insert_at, m)
 
     if not keep_empty and columns:
         keep = [any(matrix[r][i] != "" for r in range(len(matrix))) for i in range(len(columns))]
