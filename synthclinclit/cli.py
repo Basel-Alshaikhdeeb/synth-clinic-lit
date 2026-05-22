@@ -309,5 +309,85 @@ def to_csv(
     console.print(f"[green]Wrote CSV →[/] {out_path}")
 
 
+@app.command("evaluate")
+def evaluate_cmd(
+    predictions_path: Path = typer.Option(..., "--predictions", "-p",
+                                          help="Predictions CSV (from `to-csv`)"),
+    gold_path: Path = typer.Option(..., "--gold", "-g", help="Gold-standard CSV"),
+    config_path: Path = typer.Option(..., "--config", "-c",
+                                     help="YAML/JSON mapping config (gold_column → from / metric)"),
+    out_path: Path = typer.Option(Path("./evaluation.csv"), "--out", "-o",
+                                  help="Per-cell results CSV"),
+    summary_path: Path = typer.Option(None, "--summary",
+                                      help="Optional per-field summary JSON"),
+    embed_model: str = typer.Option("sentence-transformers/all-MiniLM-L6-v2", "--embed-model",
+                                    help="Sentence-transformers model id"),
+    source_col: str = typer.Option("source", "--source-col",
+                                   help="Column used to join predictions and gold rows"),
+) -> None:
+    """Score predictions against a gold-standard CSV using a per-field policy.
+
+    Each gold column maps to one or more predicted columns. Two metrics:
+      - paraphrase: sentence-embedding cosine similarity (handles wording/aliases).
+      - numeric:    first number extracted from each side, exact compare.
+    """
+    from .evaluator import evaluate as _evaluate, load_eval_config
+
+    cfg = load_eval_config(config_path)
+    console.print(f"[cyan]Evaluating[/] {len(cfg.rules)} field(s) using embed_model={embed_model}")
+    results = _evaluate(
+        predictions_path=predictions_path,
+        gold_path=gold_path,
+        config=cfg,
+        embed_model_name=embed_model,
+        source_col=source_col,
+    )
+
+    with out_path.open("w", newline="") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(["source", "field", "metric", "score", "gold", "predicted"])
+        for r in results:
+            writer.writerow([
+                r.source, r.field, r.metric,
+                "" if r.score is None else f"{r.score:.4f}",
+                r.gold, r.predicted,
+            ])
+    console.print(f"[green]Wrote per-cell scores →[/] {out_path}")
+
+    from collections import defaultdict
+    per_field: dict[str, list[float]] = defaultdict(list)
+    field_metric: dict[str, str] = {}
+    for r in results:
+        field_metric.setdefault(r.field, r.metric)
+        if r.score is not None:
+            per_field[r.field].append(r.score)
+
+    table = Table(title="Per-field mean score")
+    for col in ("field", "metric", "n", "mean"):
+        table.add_column(col)
+    overall: list[float] = []
+    for fld, scores in per_field.items():
+        m = sum(scores) / len(scores) if scores else 0.0
+        table.add_row(fld, field_metric[fld], str(len(scores)), f"{m:.3f}")
+        overall.extend(scores)
+    if overall:
+        table.add_row("ALL", "-", str(len(overall)), f"{sum(overall)/len(overall):.3f}")
+    console.print(table)
+
+    if summary_path:
+        summary = {
+            "per_field": {
+                fld: {"metric": field_metric[fld],
+                      "n": len(scores),
+                      "mean": sum(scores) / len(scores) if scores else None}
+                for fld, scores in per_field.items()
+            },
+            "overall": {"n": len(overall),
+                        "mean": sum(overall) / len(overall) if overall else None},
+        }
+        summary_path.write_text(json.dumps(summary, indent=2))
+        console.print(f"[green]Wrote summary →[/] {summary_path}")
+
+
 if __name__ == "__main__":
     app()
