@@ -1,0 +1,20 @@
+[
+  {
+    "source": "03676b78-051a-11f0-bb39-0050569a791b",
+    "data": {
+      "Randomized Controlled Trials": false,
+      "Nonrandomized Interventional Study": true,
+      "Observational Study": false,
+      "Pilot / Feasibility Study": true,
+      "Mixed-Methods Study": false,
+      "Study Design sub-category": "null",
+      "number of participants": 0,
+      "Health Condition": "cancer",
+      "Health Condition Category": "Cancer",
+      "Healthcare Technology": "mobile application",
+      "Purpose of Healthcare Technology": "to educate the public on both the risks of developing cancer and the risk factors impacting them"
+    },
+    "errors": [],
+    "raw": "{\n  \"Randomized Controlled Trials\": false,\n  \"Nonrandomized Interventional Study\": true,\n  \"Observational Study\": false,\n  \"Pilot / Feasibility Study\": true,\n  \"Mixed-Methods Study\": false,\n  \"Study Design sub-category\": \"null\",\n  \"number of participants\": 0,\n  \"Health Condition\": \"cancer\",\n  \"Health Condition Category\": \"Cancer\",\n  \"Healthcare Technology\": \"mobile application\",\n  \"Purpose of Healthcare Technology\": \"to educate the public on both the risks of developing cancer and the risk factors impacting them\"\n}"
+  }
+]

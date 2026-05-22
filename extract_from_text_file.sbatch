@@ -22,20 +22,16 @@ PROJECT_DIR="${PROJECT_DIR:-$HOME/synth-clinic-lit}"
 SCHEMA="${SCHEMA:-examples/meta_analysis.json}"
 # Input source — set EITHER IDS_FILE (resolve + download + extract)
 # OR XML_DIR (skip download, extract from local JATS XML files).
-IDS_FILE="${IDS_FILE:-}"            # e.g. ids.txt
-XML_DIR="${XML_DIR:-articles}"              # e.g. ./articles
-RESULTS="${RESULTS:-meta-analysis_extractions.json}"
+TXT_DIR="${TXT_DIR:-text_articles}"
+RESULTS="${RESULTS:-meta-analysis_extractions2.json}"
 MODEL="${MODEL:-llama3.1:8b}"
 NUM_CTX="${NUM_CTX:-16384}"
 
-if [[ -z "${IDS_FILE}" && -z "${XML_DIR}" ]]; then
-    echo "ERROR: set IDS_FILE or XML_DIR" >&2
+if [[ -z "${TXT_DIR}" ]]; then
+    echo "ERROR: set TXT_DIR" >&2
     exit 2
 fi
-if [[ -n "${IDS_FILE}" && -n "${XML_DIR}" ]]; then
-    echo "ERROR: set only one of IDS_FILE / XML_DIR, not both" >&2
-    exit 2
-fi
+
 
 # ---- Ollama server config --------------------------------------------------
 # Pick a free-ish port (stagger by job id so parallel jobs don't clash).
@@ -90,16 +86,11 @@ apptainer exec --nv \
 
 # ---- Run the extraction ----------------------------------------------------
 # The CLI ignores OLLAMA_HOST — it takes --ollama-host explicitly.
-SOURCE_ARGS=()
-if [[ -n "${XML_DIR}" ]]; then
-    SOURCE_ARGS+=(--xml-dir "${XML_DIR}")
-else
-    SOURCE_ARGS+=(-f "${IDS_FILE}")
-fi
+
 
 synthclinclit extract \
     -s "${SCHEMA}" \
-    "${SOURCE_ARGS[@]}" \
+    --text-dir "${TXT_DIR}"  \
     -r "${RESULTS}" \
     --backend ollama \
     --ollama-host "${OLLAMA_URL}" \

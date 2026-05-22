@@ -1,0 +1,12 @@
+[
+  {
+    "source": "collection",
+    "data": {
+      "Health Literacy": "The mobile health application used in this study provided additional tools that could be helpful for engaging patients in their treatment, such as appointment reminders and links to online local resources.",
+      "Patient Autonomy": "Patients who were treated with buprenorphine in an office-based setting reported a desire for greater accountability and structure in their treatment program. The mobile application used in this study provided additional tools that could be helpful for engaging patients in their treatment, such as appointment reminders and links to online local resources.",
+      "Adherence": "The correlation between self-reported adherence and video-confirmation of adherence was strong (Figure 2). On average, patient-submitted videos confirmed buprenorphine ingestion nearly two-thirds of days during the study period."
+    },
+    "errors": [],
+    "raw": "{\n  \"Health Literacy\": \"The mobile health application used in this study provided additional tools that could be helpful for engaging patients in their treatment, such as appointment reminders and links to online local resources.\",\n  \"Patient Autonomy\": \"Patients who were treated with buprenorphine in an office-based setting reported a desire for greater accountability and structure in their treatment program. The mobile application used in this study provided additional tools that could be helpful for engaging patients in their treatment, such as appointment reminders and links to online local resources.\",\n  \"Adherence\": \"The correlation between self-reported adherence and video-confirmation of adherence was strong (Figure 2). On average, patient-submitted videos confirmed buprenorphine ingestion nearly two-thirds of days during the study period.\"\n}"
+  }
+]
