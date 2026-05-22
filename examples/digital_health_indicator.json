@@ -1,0 +1,124 @@
+{
+  "name": "Digital Health Indicators",
+  "mode": "per_article",
+  "instructions": "Focus on the primary subject of the healthcare factor/indicator in this article. Ignore cited ones.",
+  "fields": [
+    {
+      "name": "Health Literacy",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about health literacy, which can be defined as the degree to which individuals can find, understand, and use information and services to inform health-related decisions and actions for themselves and others. Synonyms include health information literacy, patient health literacy, patient education, or patient medication knowledge. False if the study focuses on another healthcare factor.",
+      "required": true
+    },   
+    {
+      "name": "Patient Autonomy",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about patient autonomy, which can be defined as the ethical and legal principle that competent adults have the right to make their own informed decisions about their medical care, free from coercion, manipulation, or undue influence from clinicians, family members, or society. Synonyms include patient empowerment, patient agency, patient involvement, or health decision making. False if the study focuses on another healthcare factor.",
+      "required": true
+    },   
+    {
+      "name": "Adherence",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about patient adherence, which can be defined as the extent to which a patient’s actual medication-taking behavior matches the prescribed regimen agreed upon with their healthcare provider. Synonyms include patient compliance, treatment adherence, medication adherence, or therapy adherence. False if the study focuses on another healthcare factor.",
+      "required": true
+    }, 
+    {
+      "name": "Coordination of Treatment Procedures",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about coordination of treatment procedures, which can be defined as the extent to which a patient’s actual medication-taking behavior matches the prescribed regimen agreed upon with their healthcare provider. Synonyms include treatment or medication workflow, process, organization, or management. False if the study focuses on another healthcare factor.",
+      "required": true
+    }, 
+    {
+      "name": "Facilitating Access to Care",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about facilitating access to care, which can be defined as the process of actively identifying and reducing barriers that prevent individuals from obtaining timely, necessary, and acceptable healthcare services. It involves connecting patients to the right level of care (primary, specialty, emergency, or supportive) at the right time, while navigating financial, geographic, communication, and systemic obstacles. Synonyms include thealth services accessibility, delivery of healthcare, remote healthcare, virtual care, reducing barriers to care, or healthcare utilization. False if the study focuses on another healthcare factor.",
+      "required": true
+    }, 
+    {
+      "name": "Patient safety",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about patient safety, which can be defined as the framework of organized activities, practices, policies, and cultures that prevent harm to patients during the process of healthcare delivery. It is the discipline of identifying, analyzing, and reducing medical errors, injuries, accidents, and infections that can occur in clinical settings. Synonyms include medication error prevention, treatment safety, healthcare safety, adverse drug events, or health risk management. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Reduction of Therapy-related Burden",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about the reduction of therapy-related burden, which can be defined as the systematic effort to minimize the physical, psychological, administrative, financial, and time-based demands that treatment places on a patient and their caregivers, without compromising clinical effectiveness. Synonyms include treatment burden, therapy burden, patient burden, treatment workload, carefiver burden, emotional burden, treatment-related distress, or psychological burden. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Alignment of treatment with guidelines and standards",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about the alignment of treatment with guidelines and standards, which can be defined as the degree to which a patient's actual healthcare matches evidence-based recommendations, professional consensus statements, regulatory requirements, and quality benchmarks established for their specific condition. Synonyms include guideline adherence, guideline-based treatment, clinical practice guideline, evidence-based practice, guideline compliance, or treatment plan adherence. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Coping with illness",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about coping with illness, which can be defined as the ongoing cognitive, emotional, and behavioral process through which a person attempts to manage the internal and external demands of living with a health condition. It includes adapting to the illness itself, its treatment, its consequences, and the associated emotional distress. Synonyms include coping, coping strategies, coping intervention, coping skills, or resilience. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Self awareness",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about self-awareness, which can be defined as the conscious, ongoing ability of an individual to accurately perceive, monitor, and understand their own internal states—including physical symptoms, emotional responses, cognitive abilities, values, limitations, and behavioral patterns—in the context of their health and illness. Synonyms include self-awareness, self-knowledge, self-monitoring, self-monitor, self-tracking, mindfulness, or self-compassion. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Social participation",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about social participation, which can be defined as being able to engage in social activities independent of disease self-management activities and maintain connections with family, friends, and peers. Synonyms include social participation, social engagement, social involvement, social interaction, community participation, community involvement, social isolation, social functioning, work productivity, or loneliness. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Support",
+      "type": "boolean",
+      "description": "is a healthcare factor, true if the study is about support, which can be defined as being able to receive help from their healthcare team and social network. Synonyms include social support, patient support, caregiver support, peer support, or community support. False if the study focuses on another healthcare factor.",
+      "required": true
+    },
+    {
+      "name": "Healthcare Factor Terminology",
+      "type": "string",
+      "description": "Predominant category of all previous Boolean healthcare factors. Populate ONLY when one of these fields 'Health Literacy', 'Patient Autonomy', 'Adherence', 'Coordination of Treatment Procedures', 'Facilitating Access to Care', 'Patient safety', 'Reduction of Therapy-related Burden', 'Alignment of treatment with guidelines and standards', 'Coping with illness', 'Self awareness', 'Social participation', or 'Support' is true. If one factor is true, then provide the terminology used to describe such a factor (e.g., Self-efficacy as a terminology to describe Autonomy). Otherwise, if all the factors are false, return null."
+    },
+    {
+      "name": "Healthcare Factor Operationalization",
+      "type": "string",
+      "description": "Predominant category of all Boolean healthcare factors. Populate ONLY when one of these fields 'Health Literacy', 'Patient Autonomy', 'Adherence', 'Coordination of Treatment Procedures', 'Facilitating Access to Care', 'Patient safety', 'Reduction of Therapy-related Burden', 'Alignment of treatment with guidelines and standards', 'Coping with illness', 'Self awareness', 'Social participation', or 'Support' is true. If one factor is true, then provide the operation used by the study to exhibit the extent of such a factor (e.g., self-reported missed doses to exhibit the degree of medication adherence). Otherwise, if all the factors are false, return null."
+    },
+    {
+      "name": "Healthcare Factor Operationalization Category",
+      "type": "string",
+      "description": "Predominant category of Healthcare Factor Operationalization. Populate ONLY when one of the field 'Healthcare Factor Operationalization' is populated (i.e., not null), and it is being reported in the article; otherwise, return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Digital activity count ", "Questionnaire", "Scale-derived items", "Compliance scores ", "Proportions/rates", "Frequency count", "Single item question", "Questionnaire item response", "Questionnaire subscale score", "Questionnaire total score", "Index score", "null"]
+    },
+    {
+      "name": "Healthcare Factor Instrument",
+      "type": "string",
+      "description": "Predominant category of all Boolean healthcare factors. Populate ONLY when one of these fields 'Health Literacy', 'Patient Autonomy', 'Adherence', 'Coordination of Treatment Procedures', 'Facilitating Access to Care', 'Patient safety', 'Reduction of Therapy-related Burden', 'Alignment of treatment with guidelines and standards', 'Coping with illness', 'Self awareness', 'Social participation', or 'Support' is true. If one factor is true, then provide the instrument/tool used to measure such a factor (e.g., mobile application, sensors, video uploads, health literacy questionnaire). Otherwise, if all the factors are false, return null."
+    },
+    {
+      "name": "Healthcare Factor Instrument Category",
+      "type": "string",
+      "description": "Predominant category of Healthcare Factor Instrument. Populate ONLY when one of the field 'Healthcare Factor Instrument' is populated (i.e., not null), and it is being reported in the article; otherwise, return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Pill count", "Self-report", "Indicators of Knowledge", "Clinician/Researcher-Reported Data", "Systems Logs", "Clinical/Administrative Records", "Questionnaire", "null"]
+    },
+    {
+      "name": "Healthcare Factor Instrument Validation",
+      "type": "string",
+      "description": "Predominant category of Healthcare Factor Instrument. Populate ONLY when one of the field 'Healthcare Factor Instrument' is populated (i.e., not null), and if the instrument used to track the healthcare factor has been validated; otherwise, return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Yes", "No", "null"]
+    },
+    {
+      "name": "Healthcare Factor Data Source",
+      "type": "string",
+      "description": "Predominant category of all Boolean healthcare factors. Populate ONLY when one of these fields 'Health Literacy', 'Patient Autonomy', 'Adherence', 'Coordination of Treatment Procedures', 'Facilitating Access to Care', 'Patient safety', 'Reduction of Therapy-related Burden', 'Alignment of treatment with guidelines and standards', 'Coping with illness', 'Self awareness', 'Social participation', or 'Support' is true. Otherwise, if all the factors are false, return null. If one factor is true, then provide the source from which the measure of such a factor is being obtained, Choose exactly one or more of the allowed values.",
+      "enum": ["Self report ", "phone calls", "app logs", "Self-administered online survey", "device logs", "In App questionnaire", "Researcher report", "cross-check with electronic health record/claims data", "Administrative dispensing data", "null"]
+    },
+    {
+      "name": "Healthcare Factor Data Source Category",
+      "type": "string",
+      "description": "Predominant category of Healthcare Factor Data Source. Populate ONLY when one of the field 'Healthcare Factor Data Source' is populated (i.e., not null), and it is being reported in the article; otherwise, return null. Choose exactly one or more of the allowed values.",
+      "enum": ["Patient Self Report data", "System Logs", "Clinician/Researcher-Reported Data", "Caregiver report data", "System Logs", "Clinical/Administrative Records"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "10.2196/56480",
+    "data": {
+      "Randomized Controlled Trials": false,
+      "Nonrandomized Interventional Study": true,
+      "Observational Study": false,
+      "Pilot / Feasibility Study": false,
+      "Mixed-Methods Study": false,
+      "Study Design sub-category": "prospective / multicenter / nonrandomized controlled trial",
+      "number of participants": 169,
+      "Health Condition": "Coronary Artery Disease",
+      "Health Condition Category": "Cardiovascular Disease",
+      "Healthcare Technology": "Mobile Intervention, Mobile App, Messaging System",
+      "Purpose of Healthcare Technology": "Promoting Regular Physical Activity in Medical Rehabilitation Maintenance"
+    },
+    "errors": [],
+    "raw": "{\n  \"Randomized Controlled Trials\": false,\n  \"Nonrandomized Interventional Study\": true,\n  \"Observational Study\": false,\n  \"Pilot / Feasibility Study\": false,\n  \"Mixed-Methods Study\": false,\n  \"Study Design sub-category\": \"prospective / multicenter / nonrandomized controlled trial\",\n  \"number of participants\": 169,\n  \"Health Condition\": \"Coronary Artery Disease\",\n  \"Health Condition Category\": \"Cardiovascular Disease\",\n  \"Healthcare Technology\": \"Mobile Intervention, Mobile App, Messaging System\",\n  \"Purpose of Healthcare Technology\": \"Promoting Regular Physical Activity in Medical Rehabilitation Maintenance\"\n}"
+  },
+  {
+    "source": "10.1097/ADM.0000000000000608",
+    "data": {
+      "Randomized Controlled Trials": false,
+      "Nonrandomized Interventional Study": true,
+      "Observational Study": false,
+      "Pilot / Feasibility Study": true,
+      "Mixed-Methods Study": false,
+      "Study Design sub-category": "Prospective pilot study",
+      "number of participants": 14,
+      "Health Condition": "Opioid use disorder",
+      "Health Condition Category": "Chronic Disease",
+      "Healthcare Technology": "Mobile health application for video directly observed therapy (video-DOT)",
+      "Purpose of Healthcare Technology": "Monitoring medication adherence via asynchronous video platform"
+    },
+    "errors": [],
+    "raw": "{\n  \"Randomized Controlled Trials\": false,\n  \"Nonrandomized Interventional Study\": true,\n  \"Observational Study\": false,\n  \"Pilot / Feasibility Study\": true,\n  \"Mixed-Methods Study\": false,\n  \"Study Design sub-category\": \"Prospective pilot study\",\n  \"number of participants\": 14,\n  \"Health Condition\": \"Opioid use disorder\",\n  \"Health Condition Category\": \"Chronic Disease\",\n  \"Healthcare Technology\": \"Mobile health application for video directly observed therapy (video-DOT)\",\n  \"Purpose of Healthcare Technology\": \"Monitoring medication adherence via asynchronous video platform\"\n}"
+  }
+]

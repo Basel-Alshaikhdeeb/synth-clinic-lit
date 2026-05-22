@@ -34,34 +34,10 @@
       "required": true
     },
     {
-      "name": "Randomized Controlled Trials sub-category",
+      "name": "Study Design sub-category",
       "type": "string",
-      "description": "Predominant category of Randomized Controlled Trials. Populate ONLY when 'Randomized Controlled Trials' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Parallel", "Pragmatic", "Cluster", "Superiority", "Factorial", "Single-blind", "Multi-arm", "null"]
-    },
-    {
-      "name": "Nonrandomized Interventional Study sub-category",
-      "type": "string",
-      "description": "Predominant category of Nonrandomized Interventional Study. Populate ONLY when 'Nonrandomized Interventional Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Quasi-experimental", "Controlled nonrandomized trial", "Single-group pre–post study", "Repeated-measures design", "null"]
-    },
-    {
-      "name": "Observational Study sub-category",
-      "type": "string",
-      "description": "Predominant category of Observational Study. Populate ONLY when 'Observational Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Cohort study", "Cross-sectional study", "Case-control study", "Prospective observational study", "null"]
-    },
-    {
-      "name": "Pilot / Feasibility Study sub-category",
-      "type": "string",
-      "description": "Predominant category of Pilot / Feasibility Study. Populate ONLY when 'Pilot / Feasibility Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Pilot randomized controlled trials", "Feasibility study", "Pilot cohort study", "Feasibility factorial study", "null"]
-    },
-    {
-      "name": "Mixed-Methods Study sub-category",
-      "type": "string",
-      "description": "Predominant category of Mixed-Methods Study. Populate ONLY when 'Mixed-Methods Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
-      "enum": ["Mixed-methods randomized controlled trials", "Mixed-methods evaluation", "Prospective mixed-methods study", "null"]
+      "description": "Predominant category of Randomized Controlled Trials, Nonrandomized Intervaentional Study, Observational Study, Pilot / Feasibility Study, and Mixed-Methods Study. Populate ONLY when one of the fields 'Randomized Controlled Trials', 'Nonrandomized Intervaentional Study', 'Observational Study', 'Pilot / Feasibility Study', and 'Mixed-Methods Study' is true; otherwise return null. Choose exactly one or more of the allowed values.",
+      "enum": ["parallel-design / single-blind randomized clinical trial", "parallel / three-arm / superiority RCT", "Pragmatic randomized clinical trial", "Cluster randomised controlled trial", "single-group pre-post intervention study", "prospective / multicenter / nonrandomized controlled trial", "Quasi experimental", "single-group repeated measurement experimental design", "Descriptive / observational / prospective cohort pilot study", "observational cross-sectional study", "Prospective mixed method study", "Mixed-methods / pre-post pilot evaluation", "mixed-methods randomised controlled trial", "Prospective pilot study", "A Factorial Design Feasibility Study", "null"]
     },
     {
       "name": "number of participants",
