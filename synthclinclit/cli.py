@@ -133,6 +133,9 @@ def extract(
                                     help="Ollama server URL (only used when --backend=ollama)"),
     num_ctx: int = typer.Option(8192, "--num-ctx",
                                 help="Ollama context window size; raise for long articles"),
+    ollama_timeout: float = typer.Option(1800.0, "--ollama-timeout",
+                                         help="HTTP read timeout (seconds) for Ollama /api/chat. "
+                                              "Raise if long articles + large num_ctx hit ReadTimeout."),
     results_path: Path = typer.Option(Path("./extractions.json"), "--results", "-r"),
 ) -> None:
     """Download (if needed), parse, then run LLM extraction using the user schema."""
@@ -184,7 +187,7 @@ def extract(
 
     backend_kwargs: dict = {}
     if backend == "ollama":
-        backend_kwargs = {"host": ollama_host, "num_ctx": num_ctx}
+        backend_kwargs = {"host": ollama_host, "num_ctx": num_ctx, "timeout": ollama_timeout}
     extractor = ArtefactExtractor(
         schema=schema, backend=backend, model=model, **backend_kwargs
     )
